@@ -21,7 +21,7 @@ def drop_nulls_columns(df: pd.DataFrame) -> pd.DataFrame:
     Parameters:
     df (pd.DataFrame): The input DataFrame.
     Returns:
-    pd.DataFrame: The DataFrame with columns containing at least 50% null values dropped.
+    pd.DataFrame: The DataFrame with columns containing at least 10% null values dropped.
     """
 
     # Calculate the threshold for null values
