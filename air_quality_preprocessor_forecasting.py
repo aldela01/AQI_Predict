@@ -67,7 +67,7 @@ class AirQualityPreprocessor(BaseEstimator, TransformerMixin):
         """Parse time, sort, enforce freq, and normalize target missingness."""
         df = df.copy()
 
-        df[self.datetime_col] = pd.to_datetime(df[self.datetime_col])
+        df[self.datetime_col] = pd.to_datetime(df[self.datetime_col], format='%d/%m/%y %H:%M')
         df = df.sort_values(self.datetime_col).set_index(self.datetime_col)
 
         if self.freq is not None:
