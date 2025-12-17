@@ -37,22 +37,26 @@ class AirQualityPreprocessor(BaseEstimator, TransformerMixin):
     def __init__(
         self,
         target_col="pm25",
+        auxiliary_stations=None,
         quality_col=None,
         datetime_col="timestamp",
         freq=None,
         use_cyclical_time=True,
-        max_lag=24,
+        lags=[1, 2, 3, 4, 5, 6, 21, 22, 23, 24, 47, 48],
         lag_other_cols=None,
         missing_col_threshold=None,
+        rolling_windows=(3, 6, 24, 48),
     ):
         self.target_col = target_col
+        self.auxiliary_stations = auxiliary_stations
         self.quality_col = quality_col
         self.datetime_col = datetime_col
         self.freq = freq
         self.use_cyclical_time = use_cyclical_time
-        self.max_lag = max_lag
+        self.lags = lags
         self.lag_other_cols = lag_other_cols
         self.missing_col_threshold = missing_col_threshold
+        self.rolling_windows = rolling_windows
 
         # learned in fit()
         self.base_columns_ = None  # after dropping very sparse columns
@@ -60,6 +64,7 @@ class AirQualityPreprocessor(BaseEstimator, TransformerMixin):
         self.feature_cols_ = None
         self.numeric_cols_ = None
         self.categorical_cols_ = None
+        self.predictor_columns_ = None  # columns kept after PM2.5/prefix filter
 
     # ---------- core helpers ----------
 
@@ -143,9 +148,6 @@ class AirQualityPreprocessor(BaseEstimator, TransformerMixin):
 
     def _decide_lag_columns(self, df_noq):
         """Decide which base columns will receive lag features."""
-        if self.max_lag is None or self.max_lag <= 0:
-            self.lag_base_cols_ = []
-            return
 
         numeric_base = [
             c for c in df_noq.columns if pd.api.types.is_numeric_dtype(df_noq[c])
@@ -163,16 +165,63 @@ class AirQualityPreprocessor(BaseEstimator, TransformerMixin):
 
         self.lag_base_cols_ = [self.target_col] + other
 
+    def _target_prefix(self):
+        """Return the station prefix for the target column."""
+        if "__" in self.target_col:
+            return self.target_col.split("__", 1)[0]
+        return self.target_col
+
+    def _filter_predictor_columns(self, df, fit_mode=True):
+        """
+        Keep PM2.5 columns for all stations and all columns for the target station.
+        """
+        prefix = self._target_prefix()
+        print("Target prefix:", prefix)
+
+        if self.auxiliary_stations is not None:
+            pm25_cols = [f"{station}__PM2.5" for station in self.auxiliary_stations]
+            print(f"Auxiliary stations specified, using PM2.5 columns: {pm25_cols}")
+        else:
+            pm25_cols = [c for c in df.columns if c.endswith("PM2.5")]
+
+        station_cols = [c for c in df.columns if prefix and c.startswith(prefix)]
+        print(f"Station columns: {station_cols}")
+
+        selected = [c for c in df.columns if c in pm25_cols or c in station_cols]
+        print(f"Selected columns: {selected}")
+        if self.target_col not in selected and self.target_col in df.columns:
+            selected.append(self.target_col)
+
+        if fit_mode:
+            self.predictor_columns_ = selected
+        else:
+            if self.predictor_columns_ is not None:
+                selected = [c for c in self.predictor_columns_ if c in df.columns]
+
+        return df[selected]
+
     def _add_lag_features(self, df):
         """Add lag columns for each base col in self.lag_base_cols_."""
         df = df.copy()
 
-        if not self.lag_base_cols_ or self.max_lag is None or self.max_lag <= 0:
+        for base_col in self.lag_base_cols_:
+            for lag in self.lags:
+                df[f"{base_col}_lag{lag}"] = df[base_col].shift(lag)
+
+        return df
+
+    def _add_rolling_features(self, df):
+        """Add rolling means (using past values) for each predictor column."""
+        df = df.copy()
+
+        if not self.lag_base_cols_:
             return df
 
         for base_col in self.lag_base_cols_:
-            for lag in [1, 2, 3, 4, 5, 6, 21, 22, 23, 24, 47, 48]:
-                df[f"{base_col}_lag{lag}"] = df[base_col].shift(lag)
+            for window in self.rolling_windows:
+                df[f"{base_col}_rollmean{window}"] = (
+                    df[base_col].rolling(window=window, min_periods=1).mean().shift(1)
+                )
 
         return df
 
@@ -188,16 +237,20 @@ class AirQualityPreprocessor(BaseEstimator, TransformerMixin):
         # 3) remove quality columns
         df_noq = self._remove_quality_columns(df_base)
 
-        # 4) decide which columns will have lags
-        self._decide_lag_columns(df_noq)
+        # 4) keep PM2.5 columns plus all columns for the target station
+        df_filtered = self._filter_predictor_columns(df_noq, fit_mode=True)
 
-        # 5) add time features
-        df_feat = self._add_time_features(df_noq)
+        # 5) decide which columns will have lags
+        self._decide_lag_columns(df_filtered)
 
-        # 6) add lag features
+        # 6) add time features
+        df_feat = self._add_time_features(df_filtered)
+
+        # 7) add lag and rolling features
         df_feat = self._add_lag_features(df_feat)
+        df_feat = self._add_rolling_features(df_feat)
 
-        # 7) infer feature / numeric / categorical columns
+        # 8) infer feature / numeric / categorical columns
         self.feature_cols_, self.numeric_cols_, self.categorical_cols_ = (
             _infer_feature_columns(df_feat, target_col=self.target_col)
         )
@@ -221,11 +274,15 @@ class AirQualityPreprocessor(BaseEstimator, TransformerMixin):
         # 3) remove quality columns
         df_noq = self._remove_quality_columns(df_base)
 
-        # 4) add time and lag features
-        df_feat = self._add_time_features(df_noq)
-        df_feat = self._add_lag_features(df_feat)
+        # 4) keep the same predictor subset learned in fit
+        df_filtered = self._filter_predictor_columns(df_noq, fit_mode=False)
 
-        # 5) build y and mask
+        # 5) add time, lag, and rolling features
+        df_feat = self._add_time_features(df_filtered)
+        df_feat = self._add_lag_features(df_feat)
+        df_feat = self._add_rolling_features(df_feat)
+
+        # 6) build y and mask
         y = df_feat[self.target_col].values.astype(float)
         valid_mask = ~np.isnan(y)
 
