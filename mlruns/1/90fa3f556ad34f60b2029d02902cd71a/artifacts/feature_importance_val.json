@@ -1,0 +1,262 @@
+{
+  "meta": {
+    "metric": "r2",
+    "baseline": 0.4525158043651567,
+    "n_repeats": 1,
+    "truncated": true,
+    "num_features": 146,
+    "num_used": 50
+  },
+  "results": [
+    {
+      "feature": "BAR-TORR__PM2.5",
+      "importance": 0.013704795207643339,
+      "std": 0.0
+    },
+    {
+      "feature": "BAR-TORR__PM2.5_lag12",
+      "importance": 0.008713233922062136,
+      "std": 0.0
+    },
+    {
+      "feature": "CEN-TRAF__PM2.5_lag3",
+      "importance": 0.00810184957541571,
+      "std": 0.0
+    },
+    {
+      "feature": "BAR-TORR__PM2.5_lag168",
+      "importance": 0.0071416553289507245,
+      "std": 0.0
+    },
+    {
+      "feature": "BAR-TORR__PM2.5_lag1",
+      "importance": 0.006123127517402849,
+      "std": 0.0
+    },
+    {
+      "feature": "CEN-TRAF__PM2.5_lag2",
+      "importance": 0.005550732232284417,
+      "std": 0.0
+    },
+    {
+      "feature": "SAB-RAME__PM2.5",
+      "importance": 0.003667559988977165,
+      "std": 0.0
+    },
+    {
+      "feature": "BAR-TORR__PM2.5_lag2",
+      "importance": 0.0034466246792895783,
+      "std": 0.0
+    },
+    {
+      "feature": "MED-ARAN__PM2.5_lag2",
+      "importance": 0.0032039372030866486,
+      "std": 0.0
+    },
+    {
+      "feature": "MED-BEME__PM2.5_lag3",
+      "importance": 0.002983199096141531,
+      "std": 0.0
+    },
+    {
+      "feature": "CEN-TRAF__PM2.5_lag1",
+      "importance": 0.0023606593274089205,
+      "std": 0.0
+    },
+    {
+      "feature": "BAR-TORR__PM2.5_lag720",
+      "importance": 0.0022468991082291723,
+      "std": 0.0
+    },
+    {
+      "feature": "CEN-TRAF__PM2.5_lag12",
+      "importance": 0.0021639981108627637,
+      "std": 0.0
+    },
+    {
+      "feature": "MED-ARAN__PM2.5_lag1",
+      "importance": 0.0018357484125998136,
+      "std": 0.0
+    },
+    {
+      "feature": "CEN-TRAF__PM2.5_lag6",
+      "importance": 0.001604966987342915,
+      "std": 0.0
+    },
+    {
+      "feature": "dayofyear",
+      "importance": 0.0013101045090087027,
+      "std": 0.0
+    },
+    {
+      "feature": "CEN-TRAF__PM2.5_lag720",
+      "importance": 0.0012261633081320777,
+      "std": 0.0
+    },
+    {
+      "feature": "MED-ARAN__PM2.5_lag72",
+      "importance": 0.0010725521873189425,
+      "std": 0.0
+    },
+    {
+      "feature": "MED-ARAN__PM2.5_lag24",
+      "importance": 0.0009815995957417334,
+      "std": 0.0
+    },
+    {
+      "feature": "hour_sin",
+      "importance": 0.0008793716040070843,
+      "std": 0.0
+    },
+    {
+      "feature": "hour",
+      "importance": 0.0006427030791906763,
+      "std": 0.0
+    },
+    {
+      "feature": "BAR-TORR__PM2.5_lag3",
+      "importance": 0.0005329130832244511,
+      "std": 0.0
+    },
+    {
+      "feature": "CEN-TRAF__PM2.5_lag72",
+      "importance": 0.00037232668770503796,
+      "std": 0.0
+    },
+    {
+      "feature": "doy_sin",
+      "importance": 0.00017697281894490935,
+      "std": 0.0
+    },
+    {
+      "feature": "MED-ARAN__PM2.5_lag6",
+      "importance": 0.00017485214064294485,
+      "std": 0.0
+    },
+    {
+      "feature": "CEN-TRAF__PM2.5_lag48",
+      "importance": 5.111530526846764e-05,
+      "std": 0.0
+    },
+    {
+      "feature": "hour_cos",
+      "importance": 4.137632453371509e-05,
+      "std": 0.0
+    },
+    {
+      "feature": "dayofweek",
+      "importance": -1.9778951551696622e-05,
+      "std": 0.0
+    },
+    {
+      "feature": "CEN-TRAF__PM2.5_lag336",
+      "importance": -6.666807857946822e-05,
+      "std": 0.0
+    },
+    {
+      "feature": "month",
+      "importance": -8.41470324289828e-05,
+      "std": 0.0
+    },
+    {
+      "feature": "MED-ARAN__PM2.5_lag168",
+      "importance": -0.00019302239830021328,
+      "std": 0.0
+    },
+    {
+      "feature": "MED-ARAN__PM2.5",
+      "importance": -0.0001948271437021143,
+      "std": 0.0
+    },
+    {
+      "feature": "CEN-TRAF__PM2.5_lag24",
+      "importance": -0.0002966802160513371,
+      "std": 0.0
+    },
+    {
+      "feature": "doy_cos",
+      "importance": -0.00046342407123312057,
+      "std": 0.0
+    },
+    {
+      "feature": "BAR-TORR__PM2.5_lag24",
+      "importance": -0.0004813606404142634,
+      "std": 0.0
+    },
+    {
+      "feature": "MED-BEME__PM2.5",
+      "importance": -0.0006101289290355583,
+      "std": 0.0
+    },
+    {
+      "feature": "MED-BEME__PM2.5_lag2",
+      "importance": -0.0007661217250219954,
+      "std": 0.0
+    },
+    {
+      "feature": "BAR-TORR__PM2.5_lag48",
+      "importance": -0.0008040458223466107,
+      "std": 0.0
+    },
+    {
+      "feature": "MED-ARAN__PM2.5_lag720",
+      "importance": -0.0009005551127958533,
+      "std": 0.0
+    },
+    {
+      "feature": "CEN-TRAF__PM2.5_lag168",
+      "importance": -0.0009023187718998349,
+      "std": 0.0
+    },
+    {
+      "feature": "CEN-TRAF__PM2.5",
+      "importance": -0.0009276234753241575,
+      "std": 0.0
+    },
+    {
+      "feature": "MED-BEME__PM2.5_lag1",
+      "importance": -0.0009695623830899835,
+      "std": 0.0
+    },
+    {
+      "feature": "CAL-JOAR__PM2.5",
+      "importance": -0.001545795925893545,
+      "std": 0.0
+    },
+    {
+      "feature": "MED-ARAN__PM2.5_lag12",
+      "importance": -0.0019001518839764087,
+      "std": 0.0
+    },
+    {
+      "feature": "MED-ARAN__PM2.5_lag336",
+      "importance": -0.002156060175529384,
+      "std": 0.0
+    },
+    {
+      "feature": "MED-ARAN__PM2.5_lag3",
+      "importance": -0.0023411571473725967,
+      "std": 0.0
+    },
+    {
+      "feature": "MED-ARAN__PM2.5_lag48",
+      "importance": -0.002557566567255587,
+      "std": 0.0
+    },
+    {
+      "feature": "BAR-TORR__PM2.5_lag336",
+      "importance": -0.0029273019267676004,
+      "std": 0.0
+    },
+    {
+      "feature": "BAR-TORR__PM2.5_lag6",
+      "importance": -0.0032139668796927756,
+      "std": 0.0
+    },
+    {
+      "feature": "BAR-TORR__PM2.5_lag72",
+      "importance": -0.003668363733656088,
+      "std": 0.0
+    }
+  ]
+}

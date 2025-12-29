@@ -1,0 +1,2105 @@
+{
+    "total": "10",
+    "results": {
+        "dkan_dataset\/863158fe-8b9e-485c-be99-c55d76d6f15b": {
+            "@type": "dcat:Dataset",
+            "title": "C\u00e1lculo tasas de mortalidad de enfermedades respiratorias y circulatorias",
+            "identifier": "863158fe-8b9e-485c-be99-c55d76d6f15b",
+            "description": "Tasas de mortalidad seg\u00fan enfermedades respiratorias y circulatorias calculadas en el proyecto \u0022Calidad del aire y sus efectos en la salud de la poblaci\u00f3n de los diez municipios del valle de aburr\u00e1, 2008 - 2015\u0022",
+            "accessLevel": "public",
+            "accrualPeriodicity": "R\/P10Y",
+            "issued": "2020-11-18T00:00:00+00:00",
+            "modified": "2020-11-19T00:00:00+00:00",
+            "spatial": "9bcce777-cb50-44e2-8c1d-28fa72e53550",
+            "temporal": "2008-01-01T00:00:00+00:00\/2017-12-31T00:00:00+00:00",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Subdirecci\u00f3n Ambiental"
+            },
+            "contactPoint": {
+                "fn": "Ana Zuleima Orrego",
+                "hasEmail": "ana.orrego@metropol.gov.co"
+            },
+            "theme": [
+                "Medio Ambiente"
+            ],
+            "keyword": [
+                "Mortalidad",
+                "Aire",
+                "Calidad del Aire"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Tasas de mortalidad calculadas de enfermedades respiratorias y circulatoria",
+                    "description": "Tasas de mortalidad seg\u00fan enfermedades respiratorias y circulatorias...",
+                    "format": "csv",
+                    "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/TasaMortalidad_2008-2017.csv",
+                    "%Ref:downloadURL": [
+                        {
+                            "identifier": "8d1212807ae21dec07ad453ab11427c2__1694470626__source",
+                            "data": {
+                                "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/TasaMortalidad_2008-2017.csv",
+                                "identifier": "8d1212807ae21dec07ad453ab11427c2",
+                                "mimeType": "text\/csv",
+                                "perspective": "source",
+                                "version": "1694470626",
+                                "checksum": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "%Ref:theme": [
+                {
+                    "identifier": "5a6f3f2d-9b33-5f91-ba02-5957236db5a8",
+                    "data": "Medio Ambiente"
+                }
+            ],
+            "%Ref:keyword": [
+                {
+                    "identifier": "141de7bc-7a59-5540-8255-37dda4c12bd9",
+                    "data": "Mortalidad"
+                },
+                {
+                    "identifier": "f1b2c8c7-6c87-59a5-9211-91b025fcb68f",
+                    "data": "Aire"
+                },
+                {
+                    "identifier": "592273c6-aa4a-5c2e-ad83-50836061f1d8",
+                    "data": "Calidad del Aire"
+                }
+            ],
+            "%Ref:publisher": {
+                "identifier": "7486147c-c5c8-569f-964b-f16617c7d1a1",
+                "data": {
+                    "@type": "org:Organization",
+                    "name": "Subdirecci\u00f3n Ambiental"
+                }
+            },
+            "%Ref:distribution": [
+                {
+                    "identifier": "df44a3f7-e48d-51a2-b3c1-38887263fefd",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "Tasas de mortalidad calculadas de enfermedades respiratorias y circulatoria",
+                        "description": "Tasas de mortalidad seg\u00fan enfermedades respiratorias y circulatorias...",
+                        "format": "csv",
+                        "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/TasaMortalidad_2008-2017.csv",
+                        "%Ref:downloadURL": [
+                            {
+                                "identifier": "8d1212807ae21dec07ad453ab11427c2__1694470626__source",
+                                "data": {
+                                    "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/TasaMortalidad_2008-2017.csv",
+                                    "identifier": "8d1212807ae21dec07ad453ab11427c2",
+                                    "mimeType": "text\/csv",
+                                    "perspective": "source",
+                                    "version": "1694470626",
+                                    "checksum": null
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "%modified": "2025-12-18T02:10:47+0000"
+        },
+        "dkan_dataset\/7382b0c0-cdbd-4d36-80e0-f9bc0eb4163a": {
+            "@type": "dcat:Dataset",
+            "title": "Resultados del an\u00e1lisis de riesgo por contaminaci\u00f3n del aire",
+            "identifier": "7382b0c0-cdbd-4d36-80e0-f9bc0eb4163a",
+            "description": "Resultados del an\u00e1lisis de riesgo calculados en el Proyecto \u0022Calidad del aire y sus efectos en la salud de la poblaci\u00f3n de los diez municipios del valle de aburr\u00e1, 2008 - 2015\u0022",
+            "accessLevel": "public",
+            "accrualPeriodicity": "R\/P10Y",
+            "issued": "2020-11-19T00:00:00+00:00",
+            "modified": "2020-11-19T00:00:00+00:00",
+            "temporal": "2007-12-31T00:00:00+00:00\/2018-01-10T00:00:00+00:00",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Subdirecci\u00f3n Ambiental"
+            },
+            "contactPoint": {
+                "fn": "Ana Zuleima Orrego",
+                "hasEmail": "ana.orrego@metropol.gov.co"
+            },
+            "theme": [
+                "Medio Ambiente"
+            ],
+            "keyword": [
+                "Salud",
+                "Aire",
+                "Calidad del Aire"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Resultados del an\u00e1lisis de riesgo por contaminaci\u00f3n del aire",
+                    "format": "csv",
+                    "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/AnalisisRiesgo_20082017.csv",
+                    "%Ref:downloadURL": [
+                        {
+                            "identifier": "e8a71f04d19733d1921ddc17f516e8e9__1694470685__source",
+                            "data": {
+                                "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/AnalisisRiesgo_20082017.csv",
+                                "identifier": "e8a71f04d19733d1921ddc17f516e8e9",
+                                "mimeType": "text\/csv",
+                                "perspective": "source",
+                                "version": "1694470685",
+                                "checksum": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "%Ref:theme": [
+                {
+                    "identifier": "5a6f3f2d-9b33-5f91-ba02-5957236db5a8",
+                    "data": "Medio Ambiente"
+                }
+            ],
+            "%Ref:keyword": [
+                {
+                    "identifier": "dfad5f08-e13e-5b3f-83b6-9892714c28a5",
+                    "data": "Salud"
+                },
+                {
+                    "identifier": "f1b2c8c7-6c87-59a5-9211-91b025fcb68f",
+                    "data": "Aire"
+                },
+                {
+                    "identifier": "592273c6-aa4a-5c2e-ad83-50836061f1d8",
+                    "data": "Calidad del Aire"
+                }
+            ],
+            "%Ref:publisher": {
+                "identifier": "7486147c-c5c8-569f-964b-f16617c7d1a1",
+                "data": {
+                    "@type": "org:Organization",
+                    "name": "Subdirecci\u00f3n Ambiental"
+                }
+            },
+            "%Ref:distribution": [
+                {
+                    "identifier": "4c300428-2657-5ef4-b29e-27beda097fdf",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "Resultados del an\u00e1lisis de riesgo por contaminaci\u00f3n del aire",
+                        "format": "csv",
+                        "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/AnalisisRiesgo_20082017.csv",
+                        "%Ref:downloadURL": [
+                            {
+                                "identifier": "e8a71f04d19733d1921ddc17f516e8e9__1694470685__source",
+                                "data": {
+                                    "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/AnalisisRiesgo_20082017.csv",
+                                    "identifier": "e8a71f04d19733d1921ddc17f516e8e9",
+                                    "mimeType": "text\/csv",
+                                    "perspective": "source",
+                                    "version": "1694470685",
+                                    "checksum": null
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "%modified": "2025-12-23T20:11:32+0000"
+        },
+        "dkan_dataset\/7281fa8e-c666-4fed-a8bd-a4af7d0ea749": {
+            "@type": "dcat:Dataset",
+            "title": "C\u00e1lculo de casos de morbimortalidad asociados a contaminaci\u00f3n del aire",
+            "identifier": "7281fa8e-c666-4fed-a8bd-a4af7d0ea749",
+            "description": "Contiene el n\u00famero de muertes y enfermedades seg\u00fan causas asociadas a la contaminaci\u00f3n del aire, calculadas a partir de los datos de defunciones del sistema nacional SISPRO y c\u00e1lculos realizados por el Sistema de Vigilancia en Salud Ambiental, con \u00e9nfasis en calidad del aire (SIVISA)",
+            "accessLevel": "public",
+            "accrualPeriodicity": "R\/P10Y",
+            "issued": "2020-11-18T00:00:00+00:00",
+            "modified": "2020-11-19T00:00:00+00:00",
+            "spatial": "2a1d6e84-7014-4365-b4e0-77b70b4ce1f2",
+            "temporal": "2008-01-01T00:00:00+00:00\/2017-12-31T00:00:00+00:00",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Subdirecci\u00f3n Ambiental"
+            },
+            "contactPoint": {
+                "fn": "Ana Zuleima Orrego",
+                "hasEmail": "ana.orrego@metropol.gov.co"
+            },
+            "theme": [
+                "Medio Ambiente"
+            ],
+            "keyword": [
+                "Morbilidad",
+                "Salud",
+                "Mortalidad",
+                "Calidad del Aire"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "C\u00e1lculo de defunciones asociadas a la contaminaci\u00f3n del aire",
+                    "description": "Contiene el n\u00famero de muertes seg\u00fan causas asociadas a la contaminaci\u00f3n del...\n\n",
+                    "format": "csv",
+                    "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/DefunsionesCalculadas_2008-2017.csv",
+                    "%Ref:downloadURL": [
+                        {
+                            "identifier": "b07f6c20766a952f5a9bf6ec28ef0712__1694470662__source",
+                            "data": {
+                                "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/DefunsionesCalculadas_2008-2017.csv",
+                                "identifier": "b07f6c20766a952f5a9bf6ec28ef0712",
+                                "mimeType": "text\/csv",
+                                "perspective": "source",
+                                "version": "1694470662",
+                                "checksum": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "C\u00e1lculo de enfermedades asociadas a la contaminaci\u00f3n del aire",
+                    "description": "Contiene el n\u00famero de eventos de enfermedades asociadas a la contaminaci\u00f3n...",
+                    "format": "zip",
+                    "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/clculo-de-casos-de-morbimortalidad-asociados-a-contaminacin-del-aire-All-2023-01-14_2219.zip",
+                    "%Ref:downloadURL": [
+                        {
+                            "identifier": "41561c1ead6cb6bd03a2bc12c1f47eb7__1694470662__source",
+                            "data": {
+                                "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/clculo-de-casos-de-morbimortalidad-asociados-a-contaminacin-del-aire-All-2023-01-14_2219.zip",
+                                "identifier": "41561c1ead6cb6bd03a2bc12c1f47eb7",
+                                "mimeType": "application\/zip",
+                                "perspective": "source",
+                                "version": "1694470662",
+                                "checksum": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "%Ref:theme": [
+                {
+                    "identifier": "5a6f3f2d-9b33-5f91-ba02-5957236db5a8",
+                    "data": "Medio Ambiente"
+                }
+            ],
+            "%Ref:keyword": [
+                {
+                    "identifier": "939cdd00-d769-5c12-8ab3-786e301ff9f1",
+                    "data": "Morbilidad"
+                },
+                {
+                    "identifier": "dfad5f08-e13e-5b3f-83b6-9892714c28a5",
+                    "data": "Salud"
+                },
+                {
+                    "identifier": "141de7bc-7a59-5540-8255-37dda4c12bd9",
+                    "data": "Mortalidad"
+                },
+                {
+                    "identifier": "592273c6-aa4a-5c2e-ad83-50836061f1d8",
+                    "data": "Calidad del Aire"
+                }
+            ],
+            "%Ref:publisher": {
+                "identifier": "7486147c-c5c8-569f-964b-f16617c7d1a1",
+                "data": {
+                    "@type": "org:Organization",
+                    "name": "Subdirecci\u00f3n Ambiental"
+                }
+            },
+            "%Ref:distribution": [
+                {
+                    "identifier": "2a7d4fb1-7d0b-59bb-b26e-1906e3fa5476",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "C\u00e1lculo de defunciones asociadas a la contaminaci\u00f3n del aire",
+                        "description": "Contiene el n\u00famero de muertes seg\u00fan causas asociadas a la contaminaci\u00f3n del...\n\n",
+                        "format": "csv",
+                        "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/DefunsionesCalculadas_2008-2017.csv",
+                        "%Ref:downloadURL": [
+                            {
+                                "identifier": "b07f6c20766a952f5a9bf6ec28ef0712__1694470662__source",
+                                "data": {
+                                    "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/DefunsionesCalculadas_2008-2017.csv",
+                                    "identifier": "b07f6c20766a952f5a9bf6ec28ef0712",
+                                    "mimeType": "text\/csv",
+                                    "perspective": "source",
+                                    "version": "1694470662",
+                                    "checksum": null
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "identifier": "2e76c935-cea0-5e58-8f3f-97b20e47bacc",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "C\u00e1lculo de enfermedades asociadas a la contaminaci\u00f3n del aire",
+                        "description": "Contiene el n\u00famero de eventos de enfermedades asociadas a la contaminaci\u00f3n...",
+                        "format": "zip",
+                        "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/clculo-de-casos-de-morbimortalidad-asociados-a-contaminacin-del-aire-All-2023-01-14_2219.zip",
+                        "%Ref:downloadURL": [
+                            {
+                                "identifier": "41561c1ead6cb6bd03a2bc12c1f47eb7__1694470662__source",
+                                "data": {
+                                    "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/clculo-de-casos-de-morbimortalidad-asociados-a-contaminacin-del-aire-All-2023-01-14_2219.zip",
+                                    "identifier": "41561c1ead6cb6bd03a2bc12c1f47eb7",
+                                    "mimeType": "application\/zip",
+                                    "perspective": "source",
+                                    "version": "1694470662",
+                                    "checksum": null
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "%modified": "2025-12-22T18:16:47+0000"
+        },
+        "dkan_dataset\/5d7841e4-5d95-4723-83f3-ebb93c27bb72": {
+            "@type": "dcat:Dataset",
+            "title": "Siembras de \u00e1rboles en el Valle de Aburr\u00e1",
+            "identifier": "5d7841e4-5d95-4723-83f3-ebb93c27bb72",
+            "description": "Contiene el detalle de los \u00e1rboles sembrados bajo el programa Plan Siembra para el Valle de Aburr\u00e1",
+            "accessLevel": "public",
+            "accrualPeriodicity": "R\/P10Y",
+            "issued": "2018-07-31T00:00:00+00:00",
+            "modified": "2020-04-30T00:00:00+00:00",
+            "spatial": "1976c7c1-981d-4335-a0e7-d443d41f9ad7",
+            "temporal": "2017-01-01T00:00:00+00:00\/2018-06-30T00:00:00+00:00",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Subdirecci\u00f3n Ambiental"
+            },
+            "contactPoint": {
+                "fn": "Hector Duque",
+                "hasEmail": "hector.duque@metropol.gov.co"
+            },
+            "theme": [
+                "Medio Ambiente"
+            ],
+            "keyword": [
+                "\u00c1rboles",
+                "Siembras",
+                "Flora",
+                "Medio Ambiente"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Siembra \u00c1rboles (CSV)",
+                    "format": "csv",
+                    "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/PlanSiembra_dic2019.txt",
+                    "%Ref:downloadURL": [
+                        {
+                            "identifier": "2573506e434a9d78c4407287161ceed1__1694469876__source",
+                            "data": {
+                                "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/PlanSiembra_dic2019.txt",
+                                "identifier": "2573506e434a9d78c4407287161ceed1",
+                                "mimeType": "text\/csv",
+                                "perspective": "source",
+                                "version": "1694469876",
+                                "checksum": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Siembra \u00c1rboles (TXT)",
+                    "format": "txt",
+                    "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/PlanSiembra_dic2019_0.txt",
+                    "%Ref:downloadURL": [
+                        {
+                            "identifier": "2e19e1c2f7d007b93ec544259282d357__1694469876__source",
+                            "data": {
+                                "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/PlanSiembra_dic2019_0.txt",
+                                "identifier": "2e19e1c2f7d007b93ec544259282d357",
+                                "mimeType": "text\/plain",
+                                "perspective": "source",
+                                "version": "1694469876",
+                                "checksum": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Siembra \u00c1rboles (XLSX)",
+                    "format": "xlsx",
+                    "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/PlanSiembra_dic2019.xlsx",
+                    "%Ref:downloadURL": [
+                        {
+                            "identifier": "d31f8a34a334196224cfa14edd42bc9b__1694469876__source",
+                            "data": {
+                                "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/PlanSiembra_dic2019.xlsx",
+                                "identifier": "d31f8a34a334196224cfa14edd42bc9b",
+                                "mimeType": "application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                                "perspective": "source",
+                                "version": "1694469876",
+                                "checksum": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "%Ref:theme": [
+                {
+                    "identifier": "5a6f3f2d-9b33-5f91-ba02-5957236db5a8",
+                    "data": "Medio Ambiente"
+                }
+            ],
+            "%Ref:keyword": [
+                {
+                    "identifier": "d182d93f-6d44-5c93-8218-5fe4b117a70f",
+                    "data": "\u00c1rboles"
+                },
+                {
+                    "identifier": "c48668ff-3489-54ef-8ddf-7d90132e69db",
+                    "data": "Siembras"
+                },
+                {
+                    "identifier": "e1090739-ce97-56c5-8b5f-958f0510abfe",
+                    "data": "Flora"
+                },
+                {
+                    "identifier": "e801787d-7b8f-5525-b3cd-0651627aea52",
+                    "data": "Medio Ambiente"
+                }
+            ],
+            "%Ref:publisher": {
+                "identifier": "7486147c-c5c8-569f-964b-f16617c7d1a1",
+                "data": {
+                    "@type": "org:Organization",
+                    "name": "Subdirecci\u00f3n Ambiental"
+                }
+            },
+            "%Ref:distribution": [
+                {
+                    "identifier": "6a44c20c-ed78-5f17-b46f-9d78348f90d8",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "Siembra \u00c1rboles (CSV)",
+                        "format": "csv",
+                        "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/PlanSiembra_dic2019.txt",
+                        "%Ref:downloadURL": [
+                            {
+                                "identifier": "2573506e434a9d78c4407287161ceed1__1694469876__source",
+                                "data": {
+                                    "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/PlanSiembra_dic2019.txt",
+                                    "identifier": "2573506e434a9d78c4407287161ceed1",
+                                    "mimeType": "text\/csv",
+                                    "perspective": "source",
+                                    "version": "1694469876",
+                                    "checksum": null
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "identifier": "b7b5fcc4-a4df-57c2-b5c6-2fc36052ce04",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "Siembra \u00c1rboles (TXT)",
+                        "format": "txt",
+                        "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/PlanSiembra_dic2019_0.txt",
+                        "%Ref:downloadURL": [
+                            {
+                                "identifier": "2e19e1c2f7d007b93ec544259282d357__1694469876__source",
+                                "data": {
+                                    "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/PlanSiembra_dic2019_0.txt",
+                                    "identifier": "2e19e1c2f7d007b93ec544259282d357",
+                                    "mimeType": "text\/plain",
+                                    "perspective": "source",
+                                    "version": "1694469876",
+                                    "checksum": null
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "identifier": "966aaa5e-1f58-5a90-baa2-d319c0e2d319",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "Siembra \u00c1rboles (XLSX)",
+                        "format": "xlsx",
+                        "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/PlanSiembra_dic2019.xlsx",
+                        "%Ref:downloadURL": [
+                            {
+                                "identifier": "d31f8a34a334196224cfa14edd42bc9b__1694469876__source",
+                                "data": {
+                                    "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/PlanSiembra_dic2019.xlsx",
+                                    "identifier": "d31f8a34a334196224cfa14edd42bc9b",
+                                    "mimeType": "application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                                    "perspective": "source",
+                                    "version": "1694469876",
+                                    "checksum": null
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "%modified": "2025-12-15T23:39:48+0000"
+        },
+        "dkan_dataset\/4f309281-b47e-4d30-800d-93bba7189e39": {
+            "@type": "dcat:Dataset",
+            "title": "Estaciones EnCicla 18\/07\/2022",
+            "identifier": "4f309281-b47e-4d30-800d-93bba7189e39",
+            "description": "Localizaci\u00f3n de las estaciones del sistema de bicicletas p\u00fablicas EnCicla",
+            "accessLevel": "public",
+            "accrualPeriodicity": "R\/P10Y",
+            "issued": "2022-07-19T00:00:00+00:00",
+            "modified": "2019-01-28T00:00:00+00:00",
+            "spatial": "{\u0022type\u0022:\u0022FeatureCollection\u0022,\u0022features\u0022:[{\u0022type\u0022:\u0022Feature\u0022,\u0022geometry\u0022:{\u0022type\u0022:\u0022Polygon\u0022,\u0022coordinates\u0022:[[[-75.533752441406,6.3440898059012],[-75.547485351563,6.2840315411271],[-75.544738769531,6.2103142015954],[-75.56396484375,6.1611635665524],[-75.610656738281,6.1338556890283],[-75.6298828125,6.1830088573285],[-75.60791015625,6.2321574578222],[-75.591430664063,6.2785713540991]]]},\u0022properties\u0022:[]}]}",
+            "temporal": "2021-11-29T00:00:00+00:00\/2021-11-29T00:00:01+00:00",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Subdirecci\u00f3n de Planificaci\u00f3n integral"
+            },
+            "contactPoint": {
+                "fn": "Andr\u00e9s Bernal",
+                "hasEmail": "andres.bernal@metropol.gov.co"
+            },
+            "theme": [
+                "Medio Ambiente",
+                "Movilidad y Transporte"
+            ],
+            "keyword": [
+                "Alquiler de bicicletas",
+                "Encicla",
+                "Sistema de Bicicletas P\u00fablicas",
+                "Movilidad Activa"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Estaciones EnCicla 18\/07\/2022 xls",
+                    "description": "Actualizaci\u00f3n EnCicla",
+                    "format": "xls",
+                    "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/EstacionesEnCicla_DatosAbiertos2_1.xls",
+                    "%Ref:downloadURL": [
+                        {
+                            "identifier": "feb1891ab3cbd861b5bec5f1e0e4c0b2__1694470561__source",
+                            "data": {
+                                "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/EstacionesEnCicla_DatosAbiertos2_1.xls",
+                                "identifier": "feb1891ab3cbd861b5bec5f1e0e4c0b2",
+                                "mimeType": "application\/vnd.ms-excel",
+                                "perspective": "source",
+                                "version": "1694470561",
+                                "checksum": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "%Ref:theme": [
+                {
+                    "identifier": "5a6f3f2d-9b33-5f91-ba02-5957236db5a8",
+                    "data": "Medio Ambiente"
+                },
+                {
+                    "identifier": "6b7ba353-2df1-5843-92a6-c00d02867dde",
+                    "data": "Movilidad y Transporte"
+                }
+            ],
+            "%Ref:keyword": [
+                {
+                    "identifier": "65167621-5b2d-5744-a8f7-0e12b60fc8b3",
+                    "data": "Alquiler de bicicletas"
+                },
+                {
+                    "identifier": "cef6c988-10f0-5dd9-af3d-a5029e89ec68",
+                    "data": "Encicla"
+                },
+                {
+                    "identifier": "437794e6-f47c-5f28-bc15-c771c5940c5f",
+                    "data": "Sistema de Bicicletas P\u00fablicas"
+                },
+                {
+                    "identifier": "69243719-e864-5d82-aebc-0c18739aa0ef",
+                    "data": "Movilidad Activa"
+                }
+            ],
+            "%Ref:publisher": {
+                "identifier": "06edbf4c-0080-572f-8a92-54c94ee5eb64",
+                "data": {
+                    "@type": "org:Organization",
+                    "name": "Subdirecci\u00f3n de Planificaci\u00f3n integral"
+                }
+            },
+            "%Ref:distribution": [
+                {
+                    "identifier": "fb446f29-ce1f-5dbc-bb52-a93de00e83c5",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "Estaciones EnCicla 18\/07\/2022 xls",
+                        "description": "Actualizaci\u00f3n EnCicla",
+                        "format": "xls",
+                        "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/EstacionesEnCicla_DatosAbiertos2_1.xls",
+                        "%Ref:downloadURL": [
+                            {
+                                "identifier": "feb1891ab3cbd861b5bec5f1e0e4c0b2__1694470561__source",
+                                "data": {
+                                    "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/EstacionesEnCicla_DatosAbiertos2_1.xls",
+                                    "identifier": "feb1891ab3cbd861b5bec5f1e0e4c0b2",
+                                    "mimeType": "application\/vnd.ms-excel",
+                                    "perspective": "source",
+                                    "version": "1694470561",
+                                    "checksum": null
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "%modified": "2025-12-18T11:13:05+0000"
+        },
+        "dkan_dataset\/fc1c016e-1496-4dfc-bfc7-7e8fab81c522": {
+            "@type": "dcat:Dataset",
+            "title": "Mediciones de ruido",
+            "identifier": "fc1c016e-1496-4dfc-bfc7-7e8fab81c522",
+            "description": "Informaci\u00f3n obtenida por la red de monitoreo de ruido ambiental",
+            "accessLevel": "public",
+            "accrualPeriodicity": "R\/P10Y",
+            "issued": "2018-08-01T00:00:00+00:00",
+            "modified": "2018-08-01T00:00:00+00:00",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "SIATA"
+            },
+            "contactPoint": {
+                "fn": "Contacto SIATA",
+                "hasEmail": "contacto@siata.gov.co"
+            },
+            "theme": [
+                "Medio Ambiente"
+            ],
+            "keyword": [
+                "Ruido",
+                "Meteorolog\u00eda",
+                "SIATA",
+                "Contaminantes"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Datos_SIATA_Ruido_ruido.json",
+                    "description": "La informaci\u00f3n obtenida por la red de monitoreo de ruido ambiental en...\n\n",
+                    "format": "json",
+                    "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Ruido_ruido.json",
+                    "%Ref:downloadURL": [
+                        {
+                            "identifier": "7a59512767609a08e831cadfe0ad26ef__1694470780__source",
+                            "data": {
+                                "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Ruido_ruido.json",
+                                "identifier": "7a59512767609a08e831cadfe0ad26ef",
+                                "mimeType": "application\/octet-stream",
+                                "perspective": "source",
+                                "version": "1694470780",
+                                "checksum": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "%Ref:theme": [
+                {
+                    "identifier": "5a6f3f2d-9b33-5f91-ba02-5957236db5a8",
+                    "data": "Medio Ambiente"
+                }
+            ],
+            "%Ref:keyword": [
+                {
+                    "identifier": "e0c6bb0c-8170-5f98-8131-bdf8882c0baf",
+                    "data": "Ruido"
+                },
+                {
+                    "identifier": "70b84819-a2ef-59c9-8245-898df9922ee9",
+                    "data": "Meteorolog\u00eda"
+                },
+                {
+                    "identifier": "9726eeee-25b1-5cbb-8ac4-df33eff133fa",
+                    "data": "SIATA"
+                },
+                {
+                    "identifier": "5026718c-ad1c-507e-8a0d-cc5f328561cd",
+                    "data": "Contaminantes"
+                }
+            ],
+            "%Ref:publisher": {
+                "identifier": "30f90111-5056-5ec2-b738-71620f12a22e",
+                "data": {
+                    "@type": "org:Organization",
+                    "name": "SIATA"
+                }
+            },
+            "%Ref:distribution": [
+                {
+                    "identifier": "40fe8e44-2da6-53ff-92f1-7621bf0eecdc",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "Datos_SIATA_Ruido_ruido.json",
+                        "description": "La informaci\u00f3n obtenida por la red de monitoreo de ruido ambiental en...\n\n",
+                        "format": "json",
+                        "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Ruido_ruido.json",
+                        "%Ref:downloadURL": [
+                            {
+                                "identifier": "7a59512767609a08e831cadfe0ad26ef__1694470780__source",
+                                "data": {
+                                    "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Ruido_ruido.json",
+                                    "identifier": "7a59512767609a08e831cadfe0ad26ef",
+                                    "mimeType": "application\/octet-stream",
+                                    "perspective": "source",
+                                    "version": "1694470780",
+                                    "checksum": null
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "%modified": "2025-12-24T06:30:13+0000"
+        },
+        "dkan_dataset\/ca7225ca-6754-4687-9cb5-0ffb76872ca8": {
+            "@type": "dcat:Dataset",
+            "title": "Variables meteorol\u00f3gicas",
+            "identifier": "ca7225ca-6754-4687-9cb5-0ffb76872ca8",
+            "description": "Informaci\u00f3n de meteorolog\u0131\u0301a obtenidas por la red de monitoreo de SIATA (humedad, precipitaci\u00f3n,temperatura y viento)",
+            "accessLevel": "public",
+            "accrualPeriodicity": "R\/P10Y",
+            "issued": "2018-08-01T00:00:00+00:00",
+            "modified": "2018-08-01T00:00:00+00:00",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "SIATA"
+            },
+            "contactPoint": {
+                "fn": "Contacto SIATA",
+                "hasEmail": "contacto@siata.gov.co"
+            },
+            "theme": [
+                "Medio Ambiente",
+                "SIATA",
+                "Contaminantes",
+                "Meteorolog\u00eda",
+                "Ruido"
+            ],
+            "keyword": [
+                "Medio Ambiente"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Datos_SIATA_Vaisala_humedad.json",
+                    "description": "Datos de Humedad Relativa reportados en % para las estaciones meteorol\u00f3gicas..",
+                    "format": "json",
+                    "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Vaisala_humedad_1.json",
+                    "%Ref:downloadURL": [
+                        {
+                            "identifier": "473981aa0ac0fcafc553cd25870a9976__1702955251__source",
+                            "data": {
+                                "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Vaisala_humedad_1.json",
+                                "identifier": "473981aa0ac0fcafc553cd25870a9976",
+                                "mimeType": "application\/octet-stream",
+                                "perspective": "source",
+                                "version": "1702955251",
+                                "checksum": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Datos_SIATA_Vaisala_precipitacion.json",
+                    "description": "Datos de Precipitaci\u00f3n reportados en mm para las estaciones meteorol\u00f3gicas..",
+                    "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Vaisala_precipitacion_0.json",
+                    "%Ref:downloadURL": [
+                        {
+                            "identifier": "9a4ba998e0b1dc020e010bbe552c4210__1702955251__source",
+                            "data": {
+                                "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Vaisala_precipitacion_0.json",
+                                "identifier": "9a4ba998e0b1dc020e010bbe552c4210",
+                                "mimeType": "application\/octet-stream",
+                                "perspective": "source",
+                                "version": "1702955251",
+                                "checksum": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Datos_SIATA_Vaisala_temperatura.json",
+                    "description": "Datos de Temperatura reportados en \u00b0C para las estaciones meteorol\u00f3gicas",
+                    "format": "json",
+                    "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Vaisala_temperatura.json",
+                    "%Ref:downloadURL": [
+                        {
+                            "identifier": "f838a8a8529b82ce7d39cc499bbfa472__1702955251__source",
+                            "data": {
+                                "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Vaisala_temperatura.json",
+                                "identifier": "f838a8a8529b82ce7d39cc499bbfa472",
+                                "mimeType": "application\/octet-stream",
+                                "perspective": "source",
+                                "version": "1702955251",
+                                "checksum": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Datos_SIATA_Vaisala_viento.json",
+                    "description": "Datos de Direcci\u00f3n de Viento reportados en \u00b0 y Velocidad de Viento..."
+                }
+            ],
+            "%Ref:theme": [
+                {
+                    "identifier": "5a6f3f2d-9b33-5f91-ba02-5957236db5a8",
+                    "data": "Medio Ambiente"
+                },
+                {
+                    "identifier": "23fb81d2-cd0b-54ea-867a-9889765c8ade",
+                    "data": "SIATA"
+                },
+                {
+                    "identifier": "560b6d28-ccb1-5dd9-845d-b1b87a362ea4",
+                    "data": "Contaminantes"
+                },
+                {
+                    "identifier": "ea055b58-d970-51eb-a41e-52528434b7f0",
+                    "data": "Meteorolog\u00eda"
+                },
+                {
+                    "identifier": "2fad894c-ba9a-5afe-9cd5-b72295bee124",
+                    "data": "Ruido"
+                }
+            ],
+            "%Ref:keyword": [
+                {
+                    "identifier": "e801787d-7b8f-5525-b3cd-0651627aea52",
+                    "data": "Medio Ambiente"
+                }
+            ],
+            "%Ref:publisher": {
+                "identifier": "30f90111-5056-5ec2-b738-71620f12a22e",
+                "data": {
+                    "@type": "org:Organization",
+                    "name": "SIATA"
+                }
+            },
+            "%Ref:distribution": [
+                {
+                    "identifier": "8084fe5e-51fd-53b2-8308-0cbb6adbca92",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "Datos_SIATA_Vaisala_humedad.json",
+                        "description": "Datos de Humedad Relativa reportados en % para las estaciones meteorol\u00f3gicas..",
+                        "format": "json",
+                        "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Vaisala_humedad_1.json",
+                        "%Ref:downloadURL": [
+                            {
+                                "identifier": "473981aa0ac0fcafc553cd25870a9976__1702955251__source",
+                                "data": {
+                                    "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Vaisala_humedad_1.json",
+                                    "identifier": "473981aa0ac0fcafc553cd25870a9976",
+                                    "mimeType": "application\/octet-stream",
+                                    "perspective": "source",
+                                    "version": "1702955251",
+                                    "checksum": null
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "identifier": "541b37c7-ee7d-5e62-b87f-0200c67caa1f",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "Datos_SIATA_Vaisala_precipitacion.json",
+                        "description": "Datos de Precipitaci\u00f3n reportados en mm para las estaciones meteorol\u00f3gicas..",
+                        "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Vaisala_precipitacion_0.json",
+                        "%Ref:downloadURL": [
+                            {
+                                "identifier": "9a4ba998e0b1dc020e010bbe552c4210__1702955251__source",
+                                "data": {
+                                    "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Vaisala_precipitacion_0.json",
+                                    "identifier": "9a4ba998e0b1dc020e010bbe552c4210",
+                                    "mimeType": "application\/octet-stream",
+                                    "perspective": "source",
+                                    "version": "1702955251",
+                                    "checksum": null
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "identifier": "3c885e21-ca43-5903-9c6f-431ddab9fa5a",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "Datos_SIATA_Vaisala_temperatura.json",
+                        "description": "Datos de Temperatura reportados en \u00b0C para las estaciones meteorol\u00f3gicas",
+                        "format": "json",
+                        "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Vaisala_temperatura.json",
+                        "%Ref:downloadURL": [
+                            {
+                                "identifier": "f838a8a8529b82ce7d39cc499bbfa472__1702955251__source",
+                                "data": {
+                                    "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Vaisala_temperatura.json",
+                                    "identifier": "f838a8a8529b82ce7d39cc499bbfa472",
+                                    "mimeType": "application\/octet-stream",
+                                    "perspective": "source",
+                                    "version": "1702955251",
+                                    "checksum": null
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "identifier": "35203b30-9da4-5af1-9d86-36c55a044c4b",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "Datos_SIATA_Vaisala_viento.json",
+                        "description": "Datos de Direcci\u00f3n de Viento reportados en \u00b0 y Velocidad de Viento..."
+                    }
+                }
+            ],
+            "%modified": "2025-12-20T06:21:23+0000"
+        },
+        "dkan_dataset\/bd2e0f13-6834-4a58-af84-a648adc4b190": {
+            "@type": "dcat:Dataset",
+            "title": "Datos Estaciones Ciudadanos Cient\u00edficos",
+            "identifier": "bd2e0f13-6834-4a58-af84-a648adc4b190",
+            "description": "Informaci\u00f3n de contaminantes y meteorolog\u00eda obtenida por la red de monitoreo de ciudadanos cient\u00edficos",
+            "accessLevel": "public",
+            "accrualPeriodicity": "R\/P10Y",
+            "issued": "2018-08-01T00:00:00+00:00",
+            "modified": "2018-08-01T00:00:00+00:00",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "SIATA"
+            },
+            "contactPoint": {
+                "fn": "Contacto SIATA",
+                "hasEmail": "contacto@siata.gov.co"
+            },
+            "theme": [
+                "Medio Ambiente"
+            ],
+            "keyword": [
+                "Ciudadanos Cient\u00edficos",
+                "Meteorolog\u00eda",
+                "SIATA",
+                "Contaminantes",
+                "Calidad del Aire"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Datos_SIATA_CiudadanosCientificos_humedad_relativa.json",
+                    "description": "Datos de Humedad Relativa reportados en %",
+                    "format": "json",
+                    "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_CiudadanosCientificos_humedad_relativa.json",
+                    "%Ref:downloadURL": [
+                        {
+                            "identifier": "f95b03f457a319b091b63c3fce057201__1694470991__source",
+                            "data": {
+                                "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_CiudadanosCientificos_humedad_relativa.json",
+                                "identifier": "f95b03f457a319b091b63c3fce057201",
+                                "mimeType": "application\/octet-stream",
+                                "perspective": "source",
+                                "version": "1694470991",
+                                "checksum": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Datos_SIATA_CiudadanosCientificos_pm1_df.json",
+                    "description": "Datos del contaminante Material Particulado inferior a 1 micra reportados en...",
+                    "format": "json",
+                    "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_CiudadanosCientificos_pm1_df.json",
+                    "%Ref:downloadURL": [
+                        {
+                            "identifier": "92cb7d6eea7f496301fe4d4db53a4248__1694470991__source",
+                            "data": {
+                                "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_CiudadanosCientificos_pm1_df.json",
+                                "identifier": "92cb7d6eea7f496301fe4d4db53a4248",
+                                "mimeType": "application\/octet-stream",
+                                "perspective": "source",
+                                "version": "1694470991",
+                                "checksum": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Datos_SIATA_CiudadanosCientificos_pm1_nova.json",
+                    "description": "Datos del contaminante Material Particulado inferior a 1 micra reportados en...",
+                    "format": "json",
+                    "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_CiudadanosCientificos_pm1_nova.json",
+                    "%Ref:downloadURL": [
+                        {
+                            "identifier": "43d5fd12f1be6c54c22306091a10ecc0__1694470991__source",
+                            "data": {
+                                "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_CiudadanosCientificos_pm1_nova.json",
+                                "identifier": "43d5fd12f1be6c54c22306091a10ecc0",
+                                "mimeType": "application\/octet-stream",
+                                "perspective": "source",
+                                "version": "1694470991",
+                                "checksum": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Datos_SIATA_CiudadanosCientificos_pm10_df.json",
+                    "description": "Datos del contaminante Material Particulado inferior a 10 micras reportados...",
+                    "format": "json",
+                    "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_CiudadanosCientificos_pm10_df.json",
+                    "%Ref:downloadURL": [
+                        {
+                            "identifier": "baa078ab0f6080a252ab4789e79e0c71__1694470991__source",
+                            "data": {
+                                "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_CiudadanosCientificos_pm10_df.json",
+                                "identifier": "baa078ab0f6080a252ab4789e79e0c71",
+                                "mimeType": "application\/octet-stream",
+                                "perspective": "source",
+                                "version": "1694470991",
+                                "checksum": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Datos_SIATA_CiudadanosCientificos_pm10_nova.json",
+                    "description": "Datos del contaminante Material Particulado inferior a 10 micras reportados...",
+                    "format": "json",
+                    "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_CiudadanosCientificos_pm10_nova.json",
+                    "%Ref:downloadURL": [
+                        {
+                            "identifier": "aba1bf49be8310d1deba5299f9a0e381__1694470991__source",
+                            "data": {
+                                "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_CiudadanosCientificos_pm10_nova.json",
+                                "identifier": "aba1bf49be8310d1deba5299f9a0e381",
+                                "mimeType": "application\/octet-stream",
+                                "perspective": "source",
+                                "version": "1694470991",
+                                "checksum": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Datos_SIATA_CiudadanosCientificos_pm25_df.json",
+                    "description": "Datos del contaminante Material Particulado inferior a 2.5 micras reportados...",
+                    "format": "json",
+                    "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_CiudadanosCientificos_pm25_df.json",
+                    "%Ref:downloadURL": [
+                        {
+                            "identifier": "017d2c66ef2d17c189c2f728f5dd2e57__1694470991__source",
+                            "data": {
+                                "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_CiudadanosCientificos_pm25_df.json",
+                                "identifier": "017d2c66ef2d17c189c2f728f5dd2e57",
+                                "mimeType": "application\/octet-stream",
+                                "perspective": "source",
+                                "version": "1694470991",
+                                "checksum": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Datos_SIATA_CiudadanosCientificos_pm25_nova.json",
+                    "description": "Datos del contaminante Material Particulado inferior a 2.5 micras reportados...",
+                    "format": "json",
+                    "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_CiudadanosCientificos_pm25_nova.json",
+                    "%Ref:downloadURL": [
+                        {
+                            "identifier": "bce00caea76c190b27b488e25d34de19__1694470991__source",
+                            "data": {
+                                "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_CiudadanosCientificos_pm25_nova.json",
+                                "identifier": "bce00caea76c190b27b488e25d34de19",
+                                "mimeType": "application\/octet-stream",
+                                "perspective": "source",
+                                "version": "1694470991",
+                                "checksum": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Datos_SIATA_CiudadanosCientificos_temperatura.json",
+                    "description": "Datos de Temperatura reportados en \u00b0C",
+                    "format": "json",
+                    "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_CiudadanosCientificos_temperatura.json",
+                    "%Ref:downloadURL": [
+                        {
+                            "identifier": "e5ba9909e382794f227aca2452f98bdd__1694470991__source",
+                            "data": {
+                                "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_CiudadanosCientificos_temperatura.json",
+                                "identifier": "e5ba9909e382794f227aca2452f98bdd",
+                                "mimeType": "application\/octet-stream",
+                                "perspective": "source",
+                                "version": "1694470991",
+                                "checksum": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "%Ref:theme": [
+                {
+                    "identifier": "5a6f3f2d-9b33-5f91-ba02-5957236db5a8",
+                    "data": "Medio Ambiente"
+                }
+            ],
+            "%Ref:keyword": [
+                {
+                    "identifier": "1390fa30-6ecc-5d2d-af40-c34b6fcb8bf6",
+                    "data": "Ciudadanos Cient\u00edficos"
+                },
+                {
+                    "identifier": "70b84819-a2ef-59c9-8245-898df9922ee9",
+                    "data": "Meteorolog\u00eda"
+                },
+                {
+                    "identifier": "9726eeee-25b1-5cbb-8ac4-df33eff133fa",
+                    "data": "SIATA"
+                },
+                {
+                    "identifier": "5026718c-ad1c-507e-8a0d-cc5f328561cd",
+                    "data": "Contaminantes"
+                },
+                {
+                    "identifier": "592273c6-aa4a-5c2e-ad83-50836061f1d8",
+                    "data": "Calidad del Aire"
+                }
+            ],
+            "%Ref:publisher": {
+                "identifier": "30f90111-5056-5ec2-b738-71620f12a22e",
+                "data": {
+                    "@type": "org:Organization",
+                    "name": "SIATA"
+                }
+            },
+            "%Ref:distribution": [
+                {
+                    "identifier": "f34f1e91-abad-5878-a66b-3f3c6eab365d",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "Datos_SIATA_CiudadanosCientificos_humedad_relativa.json",
+                        "description": "Datos de Humedad Relativa reportados en %",
+                        "format": "json",
+                        "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_CiudadanosCientificos_humedad_relativa.json",
+                        "%Ref:downloadURL": [
+                            {
+                                "identifier": "f95b03f457a319b091b63c3fce057201__1694470991__source",
+                                "data": {
+                                    "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_CiudadanosCientificos_humedad_relativa.json",
+                                    "identifier": "f95b03f457a319b091b63c3fce057201",
+                                    "mimeType": "application\/octet-stream",
+                                    "perspective": "source",
+                                    "version": "1694470991",
+                                    "checksum": null
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "identifier": "f624d2c2-4394-515c-8bdd-fdbd5b2d263d",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "Datos_SIATA_CiudadanosCientificos_pm1_df.json",
+                        "description": "Datos del contaminante Material Particulado inferior a 1 micra reportados en...",
+                        "format": "json",
+                        "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_CiudadanosCientificos_pm1_df.json",
+                        "%Ref:downloadURL": [
+                            {
+                                "identifier": "92cb7d6eea7f496301fe4d4db53a4248__1694470991__source",
+                                "data": {
+                                    "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_CiudadanosCientificos_pm1_df.json",
+                                    "identifier": "92cb7d6eea7f496301fe4d4db53a4248",
+                                    "mimeType": "application\/octet-stream",
+                                    "perspective": "source",
+                                    "version": "1694470991",
+                                    "checksum": null
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "identifier": "cce5d370-ebf9-5ddd-a01e-73bee819e244",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "Datos_SIATA_CiudadanosCientificos_pm1_nova.json",
+                        "description": "Datos del contaminante Material Particulado inferior a 1 micra reportados en...",
+                        "format": "json",
+                        "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_CiudadanosCientificos_pm1_nova.json",
+                        "%Ref:downloadURL": [
+                            {
+                                "identifier": "43d5fd12f1be6c54c22306091a10ecc0__1694470991__source",
+                                "data": {
+                                    "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_CiudadanosCientificos_pm1_nova.json",
+                                    "identifier": "43d5fd12f1be6c54c22306091a10ecc0",
+                                    "mimeType": "application\/octet-stream",
+                                    "perspective": "source",
+                                    "version": "1694470991",
+                                    "checksum": null
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "identifier": "f18c61e6-8ebc-55f5-a898-05dbcf606df6",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "Datos_SIATA_CiudadanosCientificos_pm10_df.json",
+                        "description": "Datos del contaminante Material Particulado inferior a 10 micras reportados...",
+                        "format": "json",
+                        "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_CiudadanosCientificos_pm10_df.json",
+                        "%Ref:downloadURL": [
+                            {
+                                "identifier": "baa078ab0f6080a252ab4789e79e0c71__1694470991__source",
+                                "data": {
+                                    "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_CiudadanosCientificos_pm10_df.json",
+                                    "identifier": "baa078ab0f6080a252ab4789e79e0c71",
+                                    "mimeType": "application\/octet-stream",
+                                    "perspective": "source",
+                                    "version": "1694470991",
+                                    "checksum": null
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "identifier": "03ec8bfd-bcff-5009-b937-29bac91f8ba8",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "Datos_SIATA_CiudadanosCientificos_pm10_nova.json",
+                        "description": "Datos del contaminante Material Particulado inferior a 10 micras reportados...",
+                        "format": "json",
+                        "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_CiudadanosCientificos_pm10_nova.json",
+                        "%Ref:downloadURL": [
+                            {
+                                "identifier": "aba1bf49be8310d1deba5299f9a0e381__1694470991__source",
+                                "data": {
+                                    "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_CiudadanosCientificos_pm10_nova.json",
+                                    "identifier": "aba1bf49be8310d1deba5299f9a0e381",
+                                    "mimeType": "application\/octet-stream",
+                                    "perspective": "source",
+                                    "version": "1694470991",
+                                    "checksum": null
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "identifier": "bc5252ae-c3c3-5c42-b74b-34e842a98e23",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "Datos_SIATA_CiudadanosCientificos_pm25_df.json",
+                        "description": "Datos del contaminante Material Particulado inferior a 2.5 micras reportados...",
+                        "format": "json",
+                        "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_CiudadanosCientificos_pm25_df.json",
+                        "%Ref:downloadURL": [
+                            {
+                                "identifier": "017d2c66ef2d17c189c2f728f5dd2e57__1694470991__source",
+                                "data": {
+                                    "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_CiudadanosCientificos_pm25_df.json",
+                                    "identifier": "017d2c66ef2d17c189c2f728f5dd2e57",
+                                    "mimeType": "application\/octet-stream",
+                                    "perspective": "source",
+                                    "version": "1694470991",
+                                    "checksum": null
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "identifier": "22470901-cee5-5ef4-bfdf-e112e65952bc",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "Datos_SIATA_CiudadanosCientificos_pm25_nova.json",
+                        "description": "Datos del contaminante Material Particulado inferior a 2.5 micras reportados...",
+                        "format": "json",
+                        "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_CiudadanosCientificos_pm25_nova.json",
+                        "%Ref:downloadURL": [
+                            {
+                                "identifier": "bce00caea76c190b27b488e25d34de19__1694470991__source",
+                                "data": {
+                                    "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_CiudadanosCientificos_pm25_nova.json",
+                                    "identifier": "bce00caea76c190b27b488e25d34de19",
+                                    "mimeType": "application\/octet-stream",
+                                    "perspective": "source",
+                                    "version": "1694470991",
+                                    "checksum": null
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "identifier": "31d5d80a-bd8a-5d07-a400-3c6670c2b2d0",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "Datos_SIATA_CiudadanosCientificos_temperatura.json",
+                        "description": "Datos de Temperatura reportados en \u00b0C",
+                        "format": "json",
+                        "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_CiudadanosCientificos_temperatura.json",
+                        "%Ref:downloadURL": [
+                            {
+                                "identifier": "e5ba9909e382794f227aca2452f98bdd__1694470991__source",
+                                "data": {
+                                    "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_CiudadanosCientificos_temperatura.json",
+                                    "identifier": "e5ba9909e382794f227aca2452f98bdd",
+                                    "mimeType": "application\/octet-stream",
+                                    "perspective": "source",
+                                    "version": "1694470991",
+                                    "checksum": null
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "%modified": "2025-12-18T06:32:26+0000"
+        },
+        "dkan_dataset\/a78f43fe-6711-4f41-bbbc-521fb8646bde": {
+            "@type": "dcat:Dataset",
+            "title": "Mediciones estaciones calidad del aire",
+            "identifier": "a78f43fe-6711-4f41-bbbc-521fb8646bde",
+            "description": "Informaci\u00f3n de contaminantes obtenida por la red de monitoreo de calidad del aire, discriminada por cada contaminante",
+            "accessLevel": "public",
+            "accrualPeriodicity": "R\/P10Y",
+            "issued": "2018-08-01T00:00:00+00:00",
+            "modified": "2018-08-01T00:00:00+00:00",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "SIATA"
+            },
+            "contactPoint": {
+                "fn": "Contacto SIATA",
+                "hasEmail": "contacto@siata.gov.co"
+            },
+            "theme": [
+                "Medio Ambiente"
+            ],
+            "keyword": [
+                "Aire",
+                "SIATA",
+                "Contaminantes",
+                "Calidad del Aire"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Datos_SIATA_Aire_co.json",
+                    "description": "Datos del contaminante Mon\u00f3xido de Carbono reportados en \u03bcg\/m3",
+                    "format": "json",
+                    "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Aire_co.json",
+                    "%Ref:downloadURL": [
+                        {
+                            "identifier": "d379fa13415d89a6468829e458f844d0__1694472771__source",
+                            "data": {
+                                "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Aire_co.json",
+                                "identifier": "d379fa13415d89a6468829e458f844d0",
+                                "mimeType": "application\/octet-stream",
+                                "perspective": "source",
+                                "version": "1694472771",
+                                "checksum": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Datos_SIATA_Aire_no.json",
+                    "description": "Datos del contaminante Mon\u00f3xido de Nitr\u00f3geno reportados en \u03bcg\/m3",
+                    "format": "json",
+                    "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Aire_no.json",
+                    "%Ref:downloadURL": [
+                        {
+                            "identifier": "2ca518744b76a3fe2d329c8320985de3__1694472771__source",
+                            "data": {
+                                "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Aire_no.json",
+                                "identifier": "2ca518744b76a3fe2d329c8320985de3",
+                                "mimeType": "application\/octet-stream",
+                                "perspective": "source",
+                                "version": "1694472771",
+                                "checksum": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Datos_SIATA_Aire_so2.json",
+                    "description": "Datos del contaminante Di\u00f3xido de Azufre reportados en \u03bcg\/m3",
+                    "format": "json",
+                    "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Aire_so2.json",
+                    "%Ref:downloadURL": [
+                        {
+                            "identifier": "f9827073d191e1a583e30de133f70efe__1694472771__source",
+                            "data": {
+                                "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Aire_so2.json",
+                                "identifier": "f9827073d191e1a583e30de133f70efe",
+                                "mimeType": "application\/octet-stream",
+                                "perspective": "source",
+                                "version": "1694472771",
+                                "checksum": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Datos_SIATA_Aire_no2.json",
+                    "description": "Datos del contaminante Di\u00f3xido de Nitr\u00f3geno reportados en \u03bcg\/m3",
+                    "format": "json",
+                    "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Aire_no2.json",
+                    "%Ref:downloadURL": [
+                        {
+                            "identifier": "e98f00751c9f1d420fd88f20dcf6f4f1__1694472771__source",
+                            "data": {
+                                "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Aire_no2.json",
+                                "identifier": "e98f00751c9f1d420fd88f20dcf6f4f1",
+                                "mimeType": "application\/octet-stream",
+                                "perspective": "source",
+                                "version": "1694472771",
+                                "checksum": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Datos_SIATA_Aire_ozono.json",
+                    "description": "Datos del contaminante Ozono reportados en \u03bcg\/m3",
+                    "format": "json",
+                    "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Aire_ozono.json",
+                    "%Ref:downloadURL": [
+                        {
+                            "identifier": "014583717dfcb752e379bb699ee6f02f__1694472771__source",
+                            "data": {
+                                "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Aire_ozono.json",
+                                "identifier": "014583717dfcb752e379bb699ee6f02f",
+                                "mimeType": "application\/octet-stream",
+                                "perspective": "source",
+                                "version": "1694472771",
+                                "checksum": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Datos_SIATA_Aire_pm1.json",
+                    "description": "Datos del contaminante Material Particulado inferior a 1 micra reportados en...",
+                    "format": "json",
+                    "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Aire_pm1.json",
+                    "%Ref:downloadURL": [
+                        {
+                            "identifier": "62b305f6b3a7f653db8f8f1dad60b8cc__1694472771__source",
+                            "data": {
+                                "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Aire_pm1.json",
+                                "identifier": "62b305f6b3a7f653db8f8f1dad60b8cc",
+                                "mimeType": "application\/octet-stream",
+                                "perspective": "source",
+                                "version": "1694472771",
+                                "checksum": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Datos_SIATA_Aire_pm10.json",
+                    "description": "Datos del contaminante Material Particulado inferior a 10 micras reportados...",
+                    "format": "json",
+                    "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Aire_pm10.json",
+                    "%Ref:downloadURL": [
+                        {
+                            "identifier": "90f2ea36063374019a345fc043aace07__1694472771__source",
+                            "data": {
+                                "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Aire_pm10.json",
+                                "identifier": "90f2ea36063374019a345fc043aace07",
+                                "mimeType": "application\/octet-stream",
+                                "perspective": "source",
+                                "version": "1694472771",
+                                "checksum": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Datos_SIATA_Aire_pm25.json",
+                    "description": "Datos del contaminante Material Particulado inferior a 2.5 micras reportados...",
+                    "format": "json",
+                    "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Aire_pm25.json",
+                    "%Ref:downloadURL": [
+                        {
+                            "identifier": "9c96652cf7d93a7e520f394f2eb460fe__1694472772__source",
+                            "data": {
+                                "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Aire_pm25.json",
+                                "identifier": "9c96652cf7d93a7e520f394f2eb460fe",
+                                "mimeType": "application\/octet-stream",
+                                "perspective": "source",
+                                "version": "1694472772",
+                                "checksum": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "%Ref:theme": [
+                {
+                    "identifier": "5a6f3f2d-9b33-5f91-ba02-5957236db5a8",
+                    "data": "Medio Ambiente"
+                }
+            ],
+            "%Ref:keyword": [
+                {
+                    "identifier": "f1b2c8c7-6c87-59a5-9211-91b025fcb68f",
+                    "data": "Aire"
+                },
+                {
+                    "identifier": "9726eeee-25b1-5cbb-8ac4-df33eff133fa",
+                    "data": "SIATA"
+                },
+                {
+                    "identifier": "5026718c-ad1c-507e-8a0d-cc5f328561cd",
+                    "data": "Contaminantes"
+                },
+                {
+                    "identifier": "592273c6-aa4a-5c2e-ad83-50836061f1d8",
+                    "data": "Calidad del Aire"
+                }
+            ],
+            "%Ref:publisher": {
+                "identifier": "30f90111-5056-5ec2-b738-71620f12a22e",
+                "data": {
+                    "@type": "org:Organization",
+                    "name": "SIATA"
+                }
+            },
+            "%Ref:distribution": [
+                {
+                    "identifier": "f110236c-cca5-5878-a798-0d0dbf46f590",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "Datos_SIATA_Aire_co.json",
+                        "description": "Datos del contaminante Mon\u00f3xido de Carbono reportados en \u03bcg\/m3",
+                        "format": "json",
+                        "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Aire_co.json",
+                        "%Ref:downloadURL": [
+                            {
+                                "identifier": "d379fa13415d89a6468829e458f844d0__1694472771__source",
+                                "data": {
+                                    "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Aire_co.json",
+                                    "identifier": "d379fa13415d89a6468829e458f844d0",
+                                    "mimeType": "application\/octet-stream",
+                                    "perspective": "source",
+                                    "version": "1694472771",
+                                    "checksum": null
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "identifier": "a9113f20-b1be-5ff9-8572-22a469ef9d46",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "Datos_SIATA_Aire_no.json",
+                        "description": "Datos del contaminante Mon\u00f3xido de Nitr\u00f3geno reportados en \u03bcg\/m3",
+                        "format": "json",
+                        "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Aire_no.json",
+                        "%Ref:downloadURL": [
+                            {
+                                "identifier": "2ca518744b76a3fe2d329c8320985de3__1694472771__source",
+                                "data": {
+                                    "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Aire_no.json",
+                                    "identifier": "2ca518744b76a3fe2d329c8320985de3",
+                                    "mimeType": "application\/octet-stream",
+                                    "perspective": "source",
+                                    "version": "1694472771",
+                                    "checksum": null
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "identifier": "1e031963-3e39-5b2d-81ed-aa049c66ca8a",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "Datos_SIATA_Aire_so2.json",
+                        "description": "Datos del contaminante Di\u00f3xido de Azufre reportados en \u03bcg\/m3",
+                        "format": "json",
+                        "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Aire_so2.json",
+                        "%Ref:downloadURL": [
+                            {
+                                "identifier": "f9827073d191e1a583e30de133f70efe__1694472771__source",
+                                "data": {
+                                    "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Aire_so2.json",
+                                    "identifier": "f9827073d191e1a583e30de133f70efe",
+                                    "mimeType": "application\/octet-stream",
+                                    "perspective": "source",
+                                    "version": "1694472771",
+                                    "checksum": null
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "identifier": "bbea7150-9ede-56bd-9daa-28b32d06e111",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "Datos_SIATA_Aire_no2.json",
+                        "description": "Datos del contaminante Di\u00f3xido de Nitr\u00f3geno reportados en \u03bcg\/m3",
+                        "format": "json",
+                        "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Aire_no2.json",
+                        "%Ref:downloadURL": [
+                            {
+                                "identifier": "e98f00751c9f1d420fd88f20dcf6f4f1__1694472771__source",
+                                "data": {
+                                    "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Aire_no2.json",
+                                    "identifier": "e98f00751c9f1d420fd88f20dcf6f4f1",
+                                    "mimeType": "application\/octet-stream",
+                                    "perspective": "source",
+                                    "version": "1694472771",
+                                    "checksum": null
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "identifier": "8ae94f1d-b37b-5a2b-9f40-1ced4f9558d8",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "Datos_SIATA_Aire_ozono.json",
+                        "description": "Datos del contaminante Ozono reportados en \u03bcg\/m3",
+                        "format": "json",
+                        "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Aire_ozono.json",
+                        "%Ref:downloadURL": [
+                            {
+                                "identifier": "014583717dfcb752e379bb699ee6f02f__1694472771__source",
+                                "data": {
+                                    "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Aire_ozono.json",
+                                    "identifier": "014583717dfcb752e379bb699ee6f02f",
+                                    "mimeType": "application\/octet-stream",
+                                    "perspective": "source",
+                                    "version": "1694472771",
+                                    "checksum": null
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "identifier": "704f3d9d-5ae1-5aa6-9255-5e975261d35e",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "Datos_SIATA_Aire_pm1.json",
+                        "description": "Datos del contaminante Material Particulado inferior a 1 micra reportados en...",
+                        "format": "json",
+                        "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Aire_pm1.json",
+                        "%Ref:downloadURL": [
+                            {
+                                "identifier": "62b305f6b3a7f653db8f8f1dad60b8cc__1694472771__source",
+                                "data": {
+                                    "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Aire_pm1.json",
+                                    "identifier": "62b305f6b3a7f653db8f8f1dad60b8cc",
+                                    "mimeType": "application\/octet-stream",
+                                    "perspective": "source",
+                                    "version": "1694472771",
+                                    "checksum": null
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "identifier": "a50f3048-0c56-5e17-8419-c7b5b54576e6",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "Datos_SIATA_Aire_pm10.json",
+                        "description": "Datos del contaminante Material Particulado inferior a 10 micras reportados...",
+                        "format": "json",
+                        "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Aire_pm10.json",
+                        "%Ref:downloadURL": [
+                            {
+                                "identifier": "90f2ea36063374019a345fc043aace07__1694472771__source",
+                                "data": {
+                                    "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Aire_pm10.json",
+                                    "identifier": "90f2ea36063374019a345fc043aace07",
+                                    "mimeType": "application\/octet-stream",
+                                    "perspective": "source",
+                                    "version": "1694472771",
+                                    "checksum": null
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "identifier": "bdad3592-45d7-57cc-affe-b63e188422c5",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "Datos_SIATA_Aire_pm25.json",
+                        "description": "Datos del contaminante Material Particulado inferior a 2.5 micras reportados...",
+                        "format": "json",
+                        "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Aire_pm25.json",
+                        "%Ref:downloadURL": [
+                            {
+                                "identifier": "9c96652cf7d93a7e520f394f2eb460fe__1694472772__source",
+                                "data": {
+                                    "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/Datos_SIATA_Aire_pm25.json",
+                                    "identifier": "9c96652cf7d93a7e520f394f2eb460fe",
+                                    "mimeType": "application\/octet-stream",
+                                    "perspective": "source",
+                                    "version": "1694472772",
+                                    "checksum": null
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "%modified": "2025-12-26T20:02:55+0000"
+        },
+        "dkan_dataset\/326d9ff9-91b3-4ab1-a02d-a6fb5d782a3f": {
+            "@type": "dcat:Dataset",
+            "title": "Control de emisiones en fuentes m\u00f3viles",
+            "identifier": "326d9ff9-91b3-4ab1-a02d-a6fb5d782a3f",
+            "description": "Registro de las mediciones realizadas en operativos en v\u00eda para el control de emisiones en fuentes m\u00f3viles",
+            "accessLevel": "public",
+            "accrualPeriodicity": "R\/P4M",
+            "issued": "2020-12-17T00:00:00+00:00",
+            "modified": "2018-07-31T00:00:00+00:00",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Subdirecci\u00f3n Ambiental"
+            },
+            "contactPoint": {
+                "fn": "Maria Edilia Arboleda",
+                "hasEmail": "edilia.arboleda@metropol.gov.co"
+            },
+            "theme": [
+                "Medio Ambiente"
+            ],
+            "keyword": [
+                "Fuentes M\u00f3viles",
+                "Emisiones",
+                "Calidad del Aire"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Control Fuentes Moviles 2017-2018 (CSV)",
+                    "format": "csv",
+                    "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/ControlFuentesMoviles_0_0.csv",
+                    "%Ref:downloadURL": [
+                        {
+                            "identifier": "fe21ed90307af4276dd01bd21df553e4__1694470031__source",
+                            "data": {
+                                "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/ControlFuentesMoviles_0_0.csv",
+                                "identifier": "fe21ed90307af4276dd01bd21df553e4",
+                                "mimeType": "text\/csv",
+                                "perspective": "source",
+                                "version": "1694470031",
+                                "checksum": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Control Fuentes Moviles 2017-2018 (XLSX)",
+                    "description": "Consolidado de mediciones en operativos a fuentes m\u00f3viles entre 2017 y 2018.",
+                    "format": "xlsx",
+                    "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/ControlFuentesMoviles_1_0.xlsx",
+                    "%Ref:downloadURL": [
+                        {
+                            "identifier": "ef7ba2ff7bfde5ea01aa814c43bbc2f9__1694470031__source",
+                            "data": {
+                                "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/ControlFuentesMoviles_1_0.xlsx",
+                                "identifier": "ef7ba2ff7bfde5ea01aa814c43bbc2f9",
+                                "mimeType": "application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                                "perspective": "source",
+                                "version": "1694470031",
+                                "checksum": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Control Fuentes M\u00f3viles 2019 (XLSX)",
+                    "description": "Consolidado de mediciones en operativos a fuentes m\u00f3viles a diciembre 2019...",
+                    "format": "xlsx",
+                    "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/BD_ConsolidadoDiciembre2019_datosAbiertos_0_0.xlsx",
+                    "%Ref:downloadURL": [
+                        {
+                            "identifier": "276d98ec9590637a83d8b8dbef072112__1694470031__source",
+                            "data": {
+                                "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/BD_ConsolidadoDiciembre2019_datosAbiertos_0_0.xlsx",
+                                "identifier": "276d98ec9590637a83d8b8dbef072112",
+                                "mimeType": "application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                                "perspective": "source",
+                                "version": "1694470031",
+                                "checksum": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Control Fuentes M\u00f3viles 2020 (XLSX)",
+                    "description": "Consolidado de mediciones en operativos a fuentes m\u00f3viles a noviembre de..",
+                    "format": "xlsx",
+                    "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/BD_ConsolidadoNov2020_datosabiertos.csv",
+                    "%Ref:downloadURL": [
+                        {
+                            "identifier": "43c8bfd5cee7eccb5c1ad497776bdede__1694470031__source",
+                            "data": {
+                                "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/BD_ConsolidadoNov2020_datosabiertos.csv",
+                                "identifier": "43c8bfd5cee7eccb5c1ad497776bdede",
+                                "mimeType": "text\/csv",
+                                "perspective": "source",
+                                "version": "1694470031",
+                                "checksum": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Control Fuentes M\u00f3viles 2020 (CSV)",
+                    "description": "Consolidado de mediciones en operativos a fuentes m\u00f3viles a noviembre de...",
+                    "format": "csv",
+                    "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/control-de-emisiones-en-fuentes-mviles-All-2023-01-13_2135_0.zip",
+                    "%Ref:downloadURL": [
+                        {
+                            "identifier": "f9a7233105db82b8ac01c7fc4ab8c779__1694470031__source",
+                            "data": {
+                                "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/control-de-emisiones-en-fuentes-mviles-All-2023-01-13_2135_0.zip",
+                                "identifier": "f9a7233105db82b8ac01c7fc4ab8c779",
+                                "mimeType": "text\/csv",
+                                "perspective": "source",
+                                "version": "1694470031",
+                                "checksum": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Control Fuentes M\u00f3viles 2017-2018 (TXT)",
+                    "format": "txt",
+                    "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/ControlFuentesMoviles_0.txt",
+                    "%Ref:downloadURL": [
+                        {
+                            "identifier": "32be5787ea77736d16d729a322d1794d__1694470031__source",
+                            "data": {
+                                "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/ControlFuentesMoviles_0.txt",
+                                "identifier": "32be5787ea77736d16d729a322d1794d",
+                                "mimeType": "text\/plain",
+                                "perspective": "source",
+                                "version": "1694470031",
+                                "checksum": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "%Ref:theme": [
+                {
+                    "identifier": "5a6f3f2d-9b33-5f91-ba02-5957236db5a8",
+                    "data": "Medio Ambiente"
+                }
+            ],
+            "%Ref:keyword": [
+                {
+                    "identifier": "3ef4318f-beab-56e4-aad1-8f8f4141c008",
+                    "data": "Fuentes M\u00f3viles"
+                },
+                {
+                    "identifier": "9db397bd-ab33-5809-853b-ca2fece89af7",
+                    "data": "Emisiones"
+                },
+                {
+                    "identifier": "592273c6-aa4a-5c2e-ad83-50836061f1d8",
+                    "data": "Calidad del Aire"
+                }
+            ],
+            "%Ref:publisher": {
+                "identifier": "7486147c-c5c8-569f-964b-f16617c7d1a1",
+                "data": {
+                    "@type": "org:Organization",
+                    "name": "Subdirecci\u00f3n Ambiental"
+                }
+            },
+            "%Ref:distribution": [
+                {
+                    "identifier": "fa0e8eb7-45ed-598a-bc56-1d36e04c0996",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "Control Fuentes Moviles 2017-2018 (CSV)",
+                        "format": "csv",
+                        "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/ControlFuentesMoviles_0_0.csv",
+                        "%Ref:downloadURL": [
+                            {
+                                "identifier": "fe21ed90307af4276dd01bd21df553e4__1694470031__source",
+                                "data": {
+                                    "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/ControlFuentesMoviles_0_0.csv",
+                                    "identifier": "fe21ed90307af4276dd01bd21df553e4",
+                                    "mimeType": "text\/csv",
+                                    "perspective": "source",
+                                    "version": "1694470031",
+                                    "checksum": null
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "identifier": "311dd8f9-1b03-54b3-a91a-6e88867b5cf9",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "Control Fuentes Moviles 2017-2018 (XLSX)",
+                        "description": "Consolidado de mediciones en operativos a fuentes m\u00f3viles entre 2017 y 2018.",
+                        "format": "xlsx",
+                        "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/ControlFuentesMoviles_1_0.xlsx",
+                        "%Ref:downloadURL": [
+                            {
+                                "identifier": "ef7ba2ff7bfde5ea01aa814c43bbc2f9__1694470031__source",
+                                "data": {
+                                    "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/ControlFuentesMoviles_1_0.xlsx",
+                                    "identifier": "ef7ba2ff7bfde5ea01aa814c43bbc2f9",
+                                    "mimeType": "application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                                    "perspective": "source",
+                                    "version": "1694470031",
+                                    "checksum": null
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "identifier": "8a954ea2-4a67-5567-87ca-4772cd67d827",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "Control Fuentes M\u00f3viles 2019 (XLSX)",
+                        "description": "Consolidado de mediciones en operativos a fuentes m\u00f3viles a diciembre 2019...",
+                        "format": "xlsx",
+                        "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/BD_ConsolidadoDiciembre2019_datosAbiertos_0_0.xlsx",
+                        "%Ref:downloadURL": [
+                            {
+                                "identifier": "276d98ec9590637a83d8b8dbef072112__1694470031__source",
+                                "data": {
+                                    "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/BD_ConsolidadoDiciembre2019_datosAbiertos_0_0.xlsx",
+                                    "identifier": "276d98ec9590637a83d8b8dbef072112",
+                                    "mimeType": "application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                                    "perspective": "source",
+                                    "version": "1694470031",
+                                    "checksum": null
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "identifier": "94d1facd-286f-5ca0-9e35-8f06090b497d",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "Control Fuentes M\u00f3viles 2020 (XLSX)",
+                        "description": "Consolidado de mediciones en operativos a fuentes m\u00f3viles a noviembre de..",
+                        "format": "xlsx",
+                        "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/BD_ConsolidadoNov2020_datosabiertos.csv",
+                        "%Ref:downloadURL": [
+                            {
+                                "identifier": "43c8bfd5cee7eccb5c1ad497776bdede__1694470031__source",
+                                "data": {
+                                    "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/BD_ConsolidadoNov2020_datosabiertos.csv",
+                                    "identifier": "43c8bfd5cee7eccb5c1ad497776bdede",
+                                    "mimeType": "text\/csv",
+                                    "perspective": "source",
+                                    "version": "1694470031",
+                                    "checksum": null
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "identifier": "064b7949-d220-5d4b-b158-2f74dbeeabc1",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "Control Fuentes M\u00f3viles 2020 (CSV)",
+                        "description": "Consolidado de mediciones en operativos a fuentes m\u00f3viles a noviembre de...",
+                        "format": "csv",
+                        "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/control-de-emisiones-en-fuentes-mviles-All-2023-01-13_2135_0.zip",
+                        "%Ref:downloadURL": [
+                            {
+                                "identifier": "f9a7233105db82b8ac01c7fc4ab8c779__1694470031__source",
+                                "data": {
+                                    "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/control-de-emisiones-en-fuentes-mviles-All-2023-01-13_2135_0.zip",
+                                    "identifier": "f9a7233105db82b8ac01c7fc4ab8c779",
+                                    "mimeType": "text\/csv",
+                                    "perspective": "source",
+                                    "version": "1694470031",
+                                    "checksum": null
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "identifier": "4c4da77c-e043-5d2b-83c9-3e3831bba049",
+                    "data": {
+                        "@type": "dcat:Distribution",
+                        "title": "Control Fuentes M\u00f3viles 2017-2018 (TXT)",
+                        "format": "txt",
+                        "downloadURL": "https:\/\/datosabiertos.metropol.gov.co\/sites\/default\/files\/uploaded_resources\/ControlFuentesMoviles_0.txt",
+                        "%Ref:downloadURL": [
+                            {
+                                "identifier": "32be5787ea77736d16d729a322d1794d__1694470031__source",
+                                "data": {
+                                    "filePath": "https:\/\/h-o.st\/sites\/default\/files\/uploaded_resources\/ControlFuentesMoviles_0.txt",
+                                    "identifier": "32be5787ea77736d16d729a322d1794d",
+                                    "mimeType": "text\/plain",
+                                    "perspective": "source",
+                                    "version": "1694470031",
+                                    "checksum": null
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "%modified": "2025-12-04T20:25:49+0000"
+        }
+    }
+}

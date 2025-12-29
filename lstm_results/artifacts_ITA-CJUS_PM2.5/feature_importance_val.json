@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "metric": "r2",
+    "baseline": 0.4739146828651428,
+    "n_repeats": 1,
+    "truncated": false,
+    "num_features": 19,
+    "num_used": 19
+  },
+  "results": [
+    {
+      "feature": "MED-BEME__PM2.5",
+      "importance": 0.08478391170501709,
+      "std": 0.0
+    },
+    {
+      "feature": "hour_cos",
+      "importance": 0.046114981174468994,
+      "std": 0.0
+    },
+    {
+      "feature": "MED-ARAN__PM2.5",
+      "importance": 0.046046674251556396,
+      "std": 0.0
+    },
+    {
+      "feature": "hour",
+      "importance": 0.02855604887008667,
+      "std": 0.0
+    },
+    {
+      "feature": "ITA-CJUS__HAire10_SSR",
+      "importance": 0.027975380420684814,
+      "std": 0.0
+    },
+    {
+      "feature": "CAL-JOAR__PM2.5",
+      "importance": 0.02795809507369995,
+      "std": 0.0
+    },
+    {
+      "feature": "CEN-TRAF__PM2.5",
+      "importance": 0.025337517261505127,
+      "std": 0.0
+    },
+    {
+      "feature": "hour_sin",
+      "importance": 0.023467838764190674,
+      "std": 0.0
+    },
+    {
+      "feature": "ITA-CJUS__VViento_SSR",
+      "importance": 0.018775582313537598,
+      "std": 0.0
+    },
+    {
+      "feature": "SAB-RAME__PM2.5",
+      "importance": 0.01788938045501709,
+      "std": 0.0
+    },
+    {
+      "feature": "dayofweek",
+      "importance": 0.00930631160736084,
+      "std": 0.0
+    },
+    {
+      "feature": "ITA-CJUS__RGlobal_SSR",
+      "importance": 0.006777822971343994,
+      "std": 0.0
+    },
+    {
+      "feature": "ITA-CJUS__DViento_SSR",
+      "importance": 0.005444467067718506,
+      "std": 0.0
+    },
+    {
+      "feature": "ITA-CJUS__TAire10_SSR",
+      "importance": 0.0038246512413024902,
+      "std": 0.0
+    },
+    {
+      "feature": "ITA-CJUS__P_SSR",
+      "importance": 0.0031853914260864258,
+      "std": 0.0
+    },
+    {
+      "feature": "doy_sin",
+      "importance": 0.0030167102813720703,
+      "std": 0.0
+    },
+    {
+      "feature": "dayofyear",
+      "importance": 0.0026894807815551758,
+      "std": 0.0
+    },
+    {
+      "feature": "month",
+      "importance": 0.002492666244506836,
+      "std": 0.0
+    },
+    {
+      "feature": "doy_cos",
+      "importance": 0.002142667770385742,
+      "std": 0.0
+    }
+  ]
+}

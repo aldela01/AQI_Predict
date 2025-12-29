@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "metric": "r2",
+    "baseline": 0.4946219325065613,
+    "n_repeats": 1,
+    "truncated": false,
+    "num_features": 13,
+    "num_used": 13
+  },
+  "results": [
+    {
+      "feature": "hour_cos",
+      "importance": 0.04301935434341431,
+      "std": 0.0
+    },
+    {
+      "feature": "MED-SELE__PM2.5",
+      "importance": 0.033899664878845215,
+      "std": 0.0
+    },
+    {
+      "feature": "doy_cos",
+      "importance": 0.026205837726593018,
+      "std": 0.0
+    },
+    {
+      "feature": "hour_sin",
+      "importance": 0.022278904914855957,
+      "std": 0.0
+    },
+    {
+      "feature": "hour",
+      "importance": 0.017875969409942627,
+      "std": 0.0
+    },
+    {
+      "feature": "COP-CVID__PM2.5",
+      "importance": 0.012010574340820312,
+      "std": 0.0
+    },
+    {
+      "feature": "doy_sin",
+      "importance": 0.009473443031311035,
+      "std": 0.0
+    },
+    {
+      "feature": "CAL-JOAR__PM2.5",
+      "importance": 0.0054038166999816895,
+      "std": 0.0
+    },
+    {
+      "feature": "dayofweek",
+      "importance": 0.0029008984565734863,
+      "std": 0.0
+    },
+    {
+      "feature": "month",
+      "importance": 0.0026331543922424316,
+      "std": 0.0
+    },
+    {
+      "feature": "dayofyear",
+      "importance": -0.0018889307975769043,
+      "std": 0.0
+    },
+    {
+      "feature": "BEL-FEVE__PM2.5",
+      "importance": -0.0029001832008361816,
+      "std": 0.0
+    },
+    {
+      "feature": "SAB-RAME__PM2.5",
+      "importance": -0.003917813301086426,
+      "std": 0.0
+    }
+  ]
+}

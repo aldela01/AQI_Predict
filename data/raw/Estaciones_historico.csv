@@ -1,0 +1,60 @@
+Código,Nombre_Estacion,Nombre,Latitud,Longitud,Nombre_Largo,Enumeracion,Municipio
+51,H. San Vicente de Paul,BAR-HSVP,6.439166667,-75.33633333,Hospital San Vicente de Paul,,Barbosa
+81,Torre Social,BAR-TORR,6.4369602,-75.330452,Barbosa Torre Social,9.0,Barbosa
+40,Parque de las Aguas,BAR-PDLA,6.4067135,-75.419487,Parque de las Aguas,,Barbosa
+70,Droguería Botica Junín,GIR-BOTJ,6.388361111,-75.44052778,Droguería Botica Junín,,Girardota
+3,SOS Aburrá Norte,GIR-SOSN,6.3790379,-75.4509125,SOS Aburrá Norte,1.0,Girardota
+11,I.E. Colombia,GIR-IECO,6.3785167,-75.443985,Institución Educativa Colombia,,Girardota
+102,Campaña Girardota,GIR-TEMP,6.37794,-75.443492,Campaña Girardota,,Girardota
+101,Girardota - Tanques EPM,GIR-EPM,6.373635,-75.448145,Tanques EPM,1.0,Girardota
+52,H. Santa Margarita,COP-HSMA,6.352722222,-75.50822222,Hospital Santa Margarita,,Copacabana
+73,I. Aurelio Tobón,COP-IATO,6.34875,-75.50680556,Institución Aurelio Tobón,,Copacabana
+82,Ciudadela Educativa de la Vida,COP-CVID,6.345361111,-75.50474,Ciudadela de la Vida,10.0,Copacabana
+71,Alcaldía de Bello,BEL-ALCA,6.338086111,-75.56161111,Alcaldía de Bello,,Bello
+87,I.E. Fernando Vélez,BEL-FEVE,6.33755,-75.5678,I.E. Fernando Vélez,15.0,Bello
+98,I. E. Jorge Eliecer Gaitán,BEL-JEGA,6.33711,-75.55866,Institución Educativa Jorge Eliecer Gaitán,,Bello
+62,Sria. Amb. Bello,BEL-SESB,6.3315,-75.556,Secretaría de Ambiente de Bello,,Bello
+37,U. San Buenaventura,BEL-USBV,6.3306971,-75.5686722,Universidad San Buenaventura,,Bello
+86,I.E. Ciro Mendía,MED-ARAN,6.2934599,-75.556427,I.E. Ciro Mendia,11.0,Medellín - Aranjuez
+103,Tomás Carrasquilla - La Quintana,MED-PBLQ,6.285,-75.583055,Parque Biblioteca Tomás Carrasquilla - La Quintana,103.0,Medellin
+85,Parque Biblioteca Fernando Botero,MED-SCRI,6.2805,-75.6366,Parque Biblioteca Fernando Botero,12.0,Medellín - San Cristobal
+4,Facultad de Minas ,MED-UNFM,6.27694,-75.59611111,Universidad Nacional - Facultad de Minas,,Medellín
+74,ITM Robledo ,MED-ITMR,6.274003,-75.5925751,Institución Universitaria ITM Robledo,,Medellín
+100,Fiscalía General de la Nación,MED-FISC,6.2687889,-75.57370833,Fiscalía General de la Nación,100.0,Medellin
+25,Universidad Nacional sede El Volador,MED-UNNV,6.2633696,-75.5770035,Universidad Nacional Nucleo El Volador,,Medellín - Centro occidente
+80,Planta de agua potable de EPM,MED-VILL,6.261722,-75.551639,Villahermosa,8.0,Medellín - Villahermosa
+76,Torre SIATA,MED-SIAT,6.259215,-75.58864,Torre SIATA,18.0,Medellín
+12,Estación Tráfico Centro,CEN-TRAF,6.2525611,-75.5695801,Estación Tráfico Centro,19.0,Medellín - Centro
+55,Corantioquia,MED-CORA,6.2525,-75.58608333,Corantioquia,,Medellín
+46,Exito San Antonio,MED-EXSA,6.2493334,-75.5702515,Exito San Antonio,,Medellín - Centro
+72,Plaza Mayor,MED-PLMA,6.245861111,-75.57913889,Plaza Mayor,,Medellín
+83,I.E. Pedro Justo Berrío,MED-BEME,6.243,-75.61201,I.E. Pedro Justo Berrío,13.0,Medellín - Belén
+94,Medellín - Santa Elena,MED-SELE,6.236361,-75.498472,Medellín - Santa Elena,18.0,Medellín - Santa Elena
+41,U. de Medellín,MED-UDEM,6.2301841,-75.6099625,Universidad de Medellín,,Medellín
+43,Tanques Miraflores,MED-MIRA,6.2299724,-75.5491943,Tanques Miraflores EPM,,Medellín
+104,Almacen General de EPM,MED-PROV,6.2297784,-75.5860518,Almacen General de EPM,22.0,Medellin - Belén
+95,Zoológico Santa Fe,MED-ZOOL,6.22446238,-75.57922995,Zoológico Santa Fe,,Medellín
+79,I.E. Pedro Octavio Amado,MED-ALTA,6.2218938,-75.6106033,Altavista,7.0,Medellín - Altavista
+6,Politécnico JIC,MED-PJIC,6.2089748,-75.5777664,Politécnico Jaime Isaza Cadavid,,Medellín
+97,Politécnico JIC-Regional,MED-PJIR,6.20896,-75.577939,Politécnico Jaime Isaza Cadavid Regional,,Medellín
+106,Universidad CES,MED-CES,6.207386,-75.551851,Universidad CES,3.0,Medellín - El Poblado
+84,I.E. INEM sede Santa Catalina,MED-TESO,6.19987,-75.56095,I.E. INEM Jose Félix de Restrepo Sede Santa Catalina,14.0,Medellín - El Poblado
+7,PTAR San Fernando,ITA-PTAR,6.193638889,-75.59158333,PTAR San Fernando,,Itagüí
+92,Estación de Policia Los Gómez,ITA-POGO,6.189723,-75.610588,Estación de Policía Los Gómez,0.0,Itagüí
+96,Santa María,ITA-SAMA,6.186908,-75.594723,Santa María,,Itagüí
+28,Casa de Justicia,ITA-CJUS,6.1856666,-75.5972061,Casa de Justicia de Itagüi,2.0,Itagüí
+44,Tanques La Ye EPM,MED-LAYE,6.1825418,-75.5506363,Tanques La Ye EPM,3.0,Medellín - El Poblado
+45,C. El Rosario,ITA-CRSV,6.1716304,-75.6069489,Colegio El Rosario Itagüi,,Itagüí
+17,Complex de Ditaires,ITA-CODI,6.1691198,-75.6281967,Complejo Ditaires,,Itagüí
+38,I.E. Concejo Municipal de Itagüí,ITA-CONC,6.1684971,-75.6443558,Institución Educativa Concejo de Itagüi,4.0,Itagüí
+88,E.S.E Santa Gertrudis,ENV-HOSP,6.16849,-75.58197,E.S.E Santa Gertrudis,16.0,Envigado
+59,I.E. Santa Maria Goretti,EST-MAGO,6.160916667,-75.645,Escuela Santa Maria Goretty,,La Estrella
+78,Hospital,EST-HOSP,6.155530556,-75.64416944,La Estrella,6.0,La Estrella
+60,Sría. Educ. Sabaneta,SAB-SEMS,6.153527778,-75.61952778,Secretaría de Educación de Sabaneta,,Sabaneta
+48,Estación Tráfico Sur,SUR-TRAF,6.1523128,-75.6274872,Estación Tráfico Sur,21.0,Sabaneta
+89,I.E. Jose Félix de Restrepo,SAB-JOFE,6.15012,-75.62049,I.E. Jose Félix de Restrepo,17.0,Sabaneta
+90,I.E Rafael J. Mejía,SAB-RAME,6.1455,-75.62126,I.E Rafael J. Mejía,17.0,Sabaneta
+107,I.E Jose Antonio Galan,EST-TABL,6.1180558,-75.6319427,I.E Jose Antonio Galan Jose Antonio Galan,3.0,La Estrella - La Tablaza
+31,Corp. Universitaria Lasallista,CAL-LASA,6.0990806,-75.6386261,Corporación Universitaria Lasallista,18.0,Caldas
+69,E U Joaquin Aristizabal,CAL-JOAR,6.0930777,-75.637764,Escuela Joaquín Aristizabal,5.0,Caldas
+47,Plaza de Mercado,CAL-PMER,6.093056,-75.635,Plaza de Mercado,,Caldas

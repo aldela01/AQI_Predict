@@ -1,0 +1,262 @@
+{
+  "meta": {
+    "metric": "r2",
+    "baseline": 0.5044957399368286,
+    "n_repeats": 1,
+    "truncated": true,
+    "num_features": 168,
+    "num_used": 50
+  },
+  "results": [
+    {
+      "feature": "feature_41",
+      "importance": 0.002012014389038086,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_28",
+      "importance": 0.001590132713317871,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_32",
+      "importance": 0.001062154769897461,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_18",
+      "importance": 0.0009082555770874023,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_37",
+      "importance": 0.0007741451263427734,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_35",
+      "importance": 0.0007697939872741699,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_26",
+      "importance": 0.0007627010345458984,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_27",
+      "importance": 0.0007351040840148926,
+      "std": 0.0
+    },
+    {
+      "feature": "doy_sin",
+      "importance": 0.0006412267684936523,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_13",
+      "importance": 0.0005413293838500977,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_39",
+      "importance": 0.0004304647445678711,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_17",
+      "importance": 0.0004264712333679199,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_14",
+      "importance": 0.000400543212890625,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_38",
+      "importance": 0.0003676414489746094,
+      "std": 0.0
+    },
+    {
+      "feature": "hour_cos",
+      "importance": 0.0003662705421447754,
+      "std": 0.0
+    },
+    {
+      "feature": "dayofweek",
+      "importance": 0.00034427642822265625,
+      "std": 0.0
+    },
+    {
+      "feature": "hour",
+      "importance": 0.00032961368560791016,
+      "std": 0.0
+    },
+    {
+      "feature": "dayofyear",
+      "importance": 0.0003024935722351074,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_30",
+      "importance": 0.0002802610397338867,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_24",
+      "importance": 0.00015461444854736328,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_46",
+      "importance": 0.0001404285430908203,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_15",
+      "importance": 6.61015510559082e-05,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_40",
+      "importance": 5.143880844116211e-05,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_20",
+      "importance": -6.830692291259766e-05,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_19",
+      "importance": -6.93202018737793e-05,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_45",
+      "importance": -0.00015115737915039062,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_16",
+      "importance": -0.0002003312110900879,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_33",
+      "importance": -0.0002636909484863281,
+      "std": 0.0
+    },
+    {
+      "feature": "CAL-JOAR__PM2.5",
+      "importance": -0.00028842687606811523,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_44",
+      "importance": -0.0003718733787536621,
+      "std": 0.0
+    },
+    {
+      "feature": "MED-SELE__PM2.5",
+      "importance": -0.00039196014404296875,
+      "std": 0.0
+    },
+    {
+      "feature": "hour_sin",
+      "importance": -0.0004496574401855469,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_23",
+      "importance": -0.0004786849021911621,
+      "std": 0.0
+    },
+    {
+      "feature": "doy_cos",
+      "importance": -0.0005384087562561035,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_31",
+      "importance": -0.0005698204040527344,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_49",
+      "importance": -0.0005796551704406738,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_21",
+      "importance": -0.0006674528121948242,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_36",
+      "importance": -0.0007747411727905273,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_34",
+      "importance": -0.0008172988891601562,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_25",
+      "importance": -0.0008443593978881836,
+      "std": 0.0
+    },
+    {
+      "feature": "month",
+      "importance": -0.0008733868598937988,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_47",
+      "importance": -0.0010080337524414062,
+      "std": 0.0
+    },
+    {
+      "feature": "SAB-RAME__PM2.5",
+      "importance": -0.0011597871780395508,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_42",
+      "importance": -0.0012486577033996582,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_48",
+      "importance": -0.0014787912368774414,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_29",
+      "importance": -0.0015473365783691406,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_43",
+      "importance": -0.0016309618949890137,
+      "std": 0.0
+    },
+    {
+      "feature": "feature_22",
+      "importance": -0.00221860408782959,
+      "std": 0.0
+    },
+    {
+      "feature": "BEL-FEVE__PM2.5",
+      "importance": -0.002332329750061035,
+      "std": 0.0
+    },
+    {
+      "feature": "COP-CVID__PM2.5",
+      "importance": -0.0024178028106689453,
+      "std": 0.0
+    }
+  ]
+}

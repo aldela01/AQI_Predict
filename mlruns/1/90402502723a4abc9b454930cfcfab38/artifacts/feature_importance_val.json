@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "metric": "r2",
+    "baseline": 0.3012905716896057,
+    "n_repeats": 1,
+    "truncated": false,
+    "num_features": 19,
+    "num_used": 19
+  },
+  "results": [
+    {
+      "feature": "dayofweek",
+      "importance": 0.04781949520111084,
+      "std": 0.0
+    },
+    {
+      "feature": "hour_cos",
+      "importance": 0.03584963083267212,
+      "std": 0.0
+    },
+    {
+      "feature": "ITA-CJUS__HAire10_SSR",
+      "importance": 0.03286701440811157,
+      "std": 0.0
+    },
+    {
+      "feature": "hour_sin",
+      "importance": 0.020352542400360107,
+      "std": 0.0
+    },
+    {
+      "feature": "hour",
+      "importance": 0.01595216989517212,
+      "std": 0.0
+    },
+    {
+      "feature": "MED-BEME__PM2.5",
+      "importance": 0.014401733875274658,
+      "std": 0.0
+    },
+    {
+      "feature": "doy_cos",
+      "importance": 0.00982964038848877,
+      "std": 0.0
+    },
+    {
+      "feature": "CAL-JOAR__PM2.5",
+      "importance": 0.008508086204528809,
+      "std": 0.0
+    },
+    {
+      "feature": "doy_sin",
+      "importance": 0.0028063058853149414,
+      "std": 0.0
+    },
+    {
+      "feature": "SAB-RAME__PM2.5",
+      "importance": 0.0026407241821289062,
+      "std": 0.0
+    },
+    {
+      "feature": "ITA-CJUS__VViento_SSR",
+      "importance": 0.0023820996284484863,
+      "std": 0.0
+    },
+    {
+      "feature": "ITA-CJUS__RGlobal_SSR",
+      "importance": 0.0021709203720092773,
+      "std": 0.0
+    },
+    {
+      "feature": "ITA-CJUS__P_SSR",
+      "importance": 0.001889944076538086,
+      "std": 0.0
+    },
+    {
+      "feature": "ITA-CJUS__TAire10_SSR",
+      "importance": -0.00017762184143066406,
+      "std": 0.0
+    },
+    {
+      "feature": "ITA-CJUS__DViento_SSR",
+      "importance": -0.0003037452697753906,
+      "std": 0.0
+    },
+    {
+      "feature": "CEN-TRAF__PM2.5",
+      "importance": -0.0017228126525878906,
+      "std": 0.0
+    },
+    {
+      "feature": "dayofyear",
+      "importance": -0.002182900905609131,
+      "std": 0.0
+    },
+    {
+      "feature": "MED-ARAN__PM2.5",
+      "importance": -0.0047528743743896484,
+      "std": 0.0
+    },
+    {
+      "feature": "month",
+      "importance": -0.00808638334274292,
+      "std": 0.0
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "BAR-TORR": [
+    {
+      "neighbor": "COP-CVID",
+      "dist_km": 21.78691298081652
+    },
+    {
+      "neighbor": "BEL-FEVE",
+      "dist_km": 28.462263254526704
+    },
+    {
+      "neighbor": "MED-SELE",
+      "dist_km": 29.023118653698624
+    },
+    {
+      "neighbor": "MED-ARAN",
+      "dist_km": 29.634932094876678
+    },
+    {
+      "neighbor": "MED-VILL",
+      "dist_km": 31.26016100574001
+    }
+  ],
+  "BEL-FEVE": [
+    {
+      "neighbor": "MED-ARAN",
+      "dist_km": 5.06116124718544
+    },
+    {
+      "neighbor": "COP-CVID",
+      "dist_km": 7.022963742321174
+    },
+    {
+      "neighbor": "MED-VILL",
+      "dist_km": 8.618803923004732
+    },
+    {
+      "neighbor": "CEN-TRAF",
+      "dist_km": 9.452382271957573
+    },
+    {
+      "neighbor": "MED-SCRI",
+      "dist_km": 9.902581577143563
+    }
+  ],
+  "CAL-JOAR": [
+    {
+      "neighbor": "SAB-RAME",
+      "dist_km": 6.108017759129004
+    },
+    {
+      "neighbor": "EST-HOSP",
+      "dist_km": 6.98045747968554
+    },
+    {
+      "neighbor": "ITA-CONC",
+      "dist_km": 8.41786143183887
+    },
+    {
+      "neighbor": "ENV-HOSP",
+      "dist_km": 10.409935063044992
+    },
+    {
+      "neighbor": "ITA-CJUS",
+      "dist_km": 11.229494587801142
+    }
+  ],
+  "CEN-TRAF": [
+    {
+      "neighbor": "MED-VILL",
+      "dist_km": 2.229400079194948
+    },
+    {
+      "neighbor": "MED-ARAN",
+      "dist_km": 4.774459948241262
+    },
+    {
+      "neighbor": "MED-BEME",
+      "dist_km": 4.8089575738332115
+    },
+    {
+      "neighbor": "MED-ALTA",
+      "dist_km": 5.673689444177364
+    },
+    {
+      "neighbor": "MED-TESO",
+      "dist_km": 5.936137382271375
+    }
+  ],
+  "COP-CVID": [
+    {
+      "neighbor": "BEL-FEVE",
+      "dist_km": 7.022963742321174
+    },
+    {
+      "neighbor": "MED-ARAN",
+      "dist_km": 8.120210045384834
+    },
+    {
+      "neighbor": "MED-VILL",
+      "dist_km": 10.647169005386566
+    },
+    {
+      "neighbor": "MED-SELE",
+      "dist_km": 12.140042045169931
+    },
+    {
+      "neighbor": "CEN-TRAF",
+      "dist_km": 12.563290007496812
+    }
+  ],
+  "ENV-HOSP": [
+    {
+      "neighbor": "ITA-CJUS",
+      "dist_km": 2.5465497880871184
+    },
+    {
+      "neighbor": "MED-LAYE",
+      "dist_km": 3.800024046730513
+    },
+    {
+      "neighbor": "MED-TESO",
+      "dist_km": 4.192236593497819
+    },
+    {
+      "neighbor": "SAB-RAME",
+      "dist_km": 5.040070690342869
+    },
+    {
+      "neighbor": "MED-ALTA",
+      "dist_km": 6.729161639379675
+    }
+  ],
+  "EST-HOSP": [
+    {
+      "neighbor": "ITA-CONC",
+      "dist_km": 1.4419610998315242
+    },
+    {
+      "neighbor": "SAB-RAME",
+      "dist_km": 2.7674577916539156
+    },
+    {
+      "neighbor": "ITA-CJUS",
+      "dist_km": 6.179330857580953
+    },
+    {
+      "neighbor": "CAL-JOAR",
+      "dist_km": 6.98045747968554
+    },
+    {
+      "neighbor": "ENV-HOSP",
+      "dist_km": 7.025673388426834
+    }
+  ],
+  "ITA-CJUS": [
+    {
+      "neighbor": "ENV-HOSP",
+      "dist_km": 2.5465497880871184
+    },
+    {
+      "neighbor": "MED-ALTA",
+      "dist_km": 4.291892194376006
+    },
+    {
+      "neighbor": "MED-TESO",
+      "dist_km": 4.307916995693099
+    },
+    {
+      "neighbor": "MED-LAYE",
+      "dist_km": 5.159904369532017
+    },
+    {
+      "neighbor": "SAB-RAME",
+      "dist_km": 5.198016938631313
+    }
+  ],
+  "ITA-CONC": [
+    {
+      "neighbor": "EST-HOSP",
+      "dist_km": 1.4419610998315242
+    },
+    {
+      "neighbor": "SAB-RAME",
+      "dist_km": 3.6136581612708794
+    },
+    {
+      "neighbor": "ITA-CJUS",
+      "dist_km": 5.5510069504951565
+    },
+    {
+      "neighbor": "ENV-HOSP",
+      "dist_km": 6.896820754198319
+    },
+    {
+      "neighbor": "MED-ALTA",
+      "dist_km": 7.012487938425844
+    }
+  ],
+  "MED-ALTA": [
+    {
+      "neighbor": "MED-BEME",
+      "dist_km": 2.352047808521762
+    },
+    {
+      "neighbor": "ITA-CJUS",
+      "dist_km": 4.291892194376006
+    },
+    {
+      "neighbor": "CEN-TRAF",
+      "dist_km": 5.673689444177364
+    },
+    {
+      "neighbor": "MED-TESO",
+      "dist_km": 6.010330727494843
+    },
+    {
+      "neighbor": "ENV-HOSP",
+      "dist_km": 6.729161639379675
+    }
+  ],
+  "MED-ARAN": [
+    {
+      "neighbor": "MED-VILL",
+      "dist_km": 3.5685519111608204
+    },
+    {
+      "neighbor": "CEN-TRAF",
+      "dist_km": 4.774459948241262
+    },
+    {
+      "neighbor": "BEL-FEVE",
+      "dist_km": 5.06116124718544
+    },
+    {
+      "neighbor": "COP-CVID",
+      "dist_km": 8.120210045384834
+    },
+    {
+      "neighbor": "MED-BEME",
+      "dist_km": 8.32020579756953
+    }
+  ],
+  "MED-BEME": [
+    {
+      "neighbor": "MED-ALTA",
+      "dist_km": 2.352047808521762
+    },
+    {
+      "neighbor": "CEN-TRAF",
+      "dist_km": 4.8089575738332115
+    },
+    {
+      "neighbor": "MED-SCRI",
+      "dist_km": 4.977416663952068
+    },
+    {
+      "neighbor": "ITA-CJUS",
+      "dist_km": 6.581862630775274
+    },
+    {
+      "neighbor": "MED-VILL",
+      "dist_km": 6.990210411255615
+    }
+  ],
+  "MED-LAYE": [
+    {
+      "neighbor": "MED-TESO",
+      "dist_km": 2.2388642529208678
+    },
+    {
+      "neighbor": "ENV-HOSP",
+      "dist_km": 3.800024046730513
+    },
+    {
+      "neighbor": "ITA-CJUS",
+      "dist_km": 5.159904369532017
+    },
+    {
+      "neighbor": "MED-ALTA",
+      "dist_km": 7.9429667543213025
+    },
+    {
+      "neighbor": "CEN-TRAF",
+      "dist_km": 8.062483709474117
+    }
+  ],
+  "MED-SCRI": [
+    {
+      "neighbor": "MED-BEME",
+      "dist_km": 4.977416663952068
+    },
+    {
+      "neighbor": "MED-ALTA",
+      "dist_km": 7.122121469726163
+    },
+    {
+      "neighbor": "CEN-TRAF",
+      "dist_km": 8.03281028481856
+    },
+    {
+      "neighbor": "MED-ARAN",
+      "dist_km": 8.977630181786385
+    },
+    {
+      "neighbor": "MED-VILL",
+      "dist_km": 9.62003600185188
+    }
+  ],
+  "MED-SELE": [
+    {
+      "neighbor": "MED-VILL",
+      "dist_km": 6.518354343604685
+    },
+    {
+      "neighbor": "MED-TESO",
+      "dist_km": 8.010124823653761
+    },
+    {
+      "neighbor": "CEN-TRAF",
+      "dist_km": 8.0637276292391
+    },
+    {
+      "neighbor": "MED-LAYE",
+      "dist_km": 8.310498682849184
+    },
+    {
+      "neighbor": "MED-ARAN",
+      "dist_km": 9.01918249875046
+    }
+  ],
+  "MED-TESO": [
+    {
+      "neighbor": "MED-LAYE",
+      "dist_km": 2.2388642529208678
+    },
+    {
+      "neighbor": "ENV-HOSP",
+      "dist_km": 4.192236593497819
+    },
+    {
+      "neighbor": "ITA-CJUS",
+      "dist_km": 4.307916995693099
+    },
+    {
+      "neighbor": "CEN-TRAF",
+      "dist_km": 5.936137382271375
+    },
+    {
+      "neighbor": "MED-ALTA",
+      "dist_km": 6.010330727494843
+    }
+  ],
+  "MED-VILL": [
+    {
+      "neighbor": "CEN-TRAF",
+      "dist_km": 2.229400079194948
+    },
+    {
+      "neighbor": "MED-ARAN",
+      "dist_km": 3.5685519111608204
+    },
+    {
+      "neighbor": "MED-SELE",
+      "dist_km": 6.518354343604685
+    },
+    {
+      "neighbor": "MED-TESO",
+      "dist_km": 6.954212312831684
+    },
+    {
+      "neighbor": "MED-BEME",
+      "dist_km": 6.990210411255615
+    }
+  ],
+  "SAB-RAME": [
+    {
+      "neighbor": "EST-HOSP",
+      "dist_km": 2.7674577916539156
+    },
+    {
+      "neighbor": "ITA-CONC",
+      "dist_km": 3.6136581612708794
+    },
+    {
+      "neighbor": "ENV-HOSP",
+      "dist_km": 5.040070690342869
+    },
+    {
+      "neighbor": "ITA-CJUS",
+      "dist_km": 5.198016938631313
+    },
+    {
+      "neighbor": "CAL-JOAR",
+      "dist_km": 6.108017759129004
+    }
+  ]
+}

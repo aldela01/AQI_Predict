@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "metric": "r2",
+    "baseline": 0.592605471611023,
+    "n_repeats": 1,
+    "truncated": false,
+    "num_features": 13,
+    "num_used": 13
+  },
+  "results": [
+    {
+      "feature": "SAB-RAME__PM2.5",
+      "importance": 0.07624876499176025,
+      "std": 0.0
+    },
+    {
+      "feature": "MED-ARAN__PM2.5",
+      "importance": 0.06268167495727539,
+      "std": 0.0
+    },
+    {
+      "feature": "MED-BEME__PM2.5",
+      "importance": 0.0414544939994812,
+      "std": 0.0
+    },
+    {
+      "feature": "hour_sin",
+      "importance": 0.03265488147735596,
+      "std": 0.0
+    },
+    {
+      "feature": "doy_cos",
+      "importance": 0.03140062093734741,
+      "std": 0.0
+    },
+    {
+      "feature": "hour_cos",
+      "importance": 0.03099966049194336,
+      "std": 0.0
+    },
+    {
+      "feature": "doy_sin",
+      "importance": 0.026382923126220703,
+      "std": 0.0
+    },
+    {
+      "feature": "CAL-JOAR__PM2.5",
+      "importance": 0.01878201961517334,
+      "std": 0.0
+    },
+    {
+      "feature": "CEN-TRAF__PM2.5",
+      "importance": 0.01639389991760254,
+      "std": 0.0
+    },
+    {
+      "feature": "hour",
+      "importance": 0.01580899953842163,
+      "std": 0.0
+    },
+    {
+      "feature": "dayofyear",
+      "importance": 0.012005448341369629,
+      "std": 0.0
+    },
+    {
+      "feature": "month",
+      "importance": 0.007467746734619141,
+      "std": 0.0
+    },
+    {
+      "feature": "dayofweek",
+      "importance": 0.0026071667671203613,
+      "std": 0.0
+    }
+  ]
+}

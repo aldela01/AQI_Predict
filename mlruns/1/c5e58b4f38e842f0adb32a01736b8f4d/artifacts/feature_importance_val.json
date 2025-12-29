@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "metric": "r2",
+    "baseline": 0.4715610146522522,
+    "n_repeats": 1,
+    "truncated": false,
+    "num_features": 19,
+    "num_used": 19
+  },
+  "results": [
+    {
+      "feature": "MED-BEME__PM2.5",
+      "importance": 0.08633577823638916,
+      "std": 0.0
+    },
+    {
+      "feature": "MED-ARAN__PM2.5",
+      "importance": 0.04541456699371338,
+      "std": 0.0
+    },
+    {
+      "feature": "hour_cos",
+      "importance": 0.045331597328186035,
+      "std": 0.0
+    },
+    {
+      "feature": "hour",
+      "importance": 0.02813953161239624,
+      "std": 0.0
+    },
+    {
+      "feature": "CAL-JOAR__PM2.5",
+      "importance": 0.027734875679016113,
+      "std": 0.0
+    },
+    {
+      "feature": "ITA-CJUS__HAire10_SSR",
+      "importance": 0.024770081043243408,
+      "std": 0.0
+    },
+    {
+      "feature": "CEN-TRAF__PM2.5",
+      "importance": 0.02368074655532837,
+      "std": 0.0
+    },
+    {
+      "feature": "hour_sin",
+      "importance": 0.022481679916381836,
+      "std": 0.0
+    },
+    {
+      "feature": "ITA-CJUS__VViento_SSR",
+      "importance": 0.018375158309936523,
+      "std": 0.0
+    },
+    {
+      "feature": "SAB-RAME__PM2.5",
+      "importance": 0.018214285373687744,
+      "std": 0.0
+    },
+    {
+      "feature": "dayofweek",
+      "importance": 0.009980499744415283,
+      "std": 0.0
+    },
+    {
+      "feature": "ITA-CJUS__RGlobal_SSR",
+      "importance": 0.007626533508300781,
+      "std": 0.0
+    },
+    {
+      "feature": "ITA-CJUS__DViento_SSR",
+      "importance": 0.005034506320953369,
+      "std": 0.0
+    },
+    {
+      "feature": "doy_sin",
+      "importance": 0.003079235553741455,
+      "std": 0.0
+    },
+    {
+      "feature": "month",
+      "importance": 0.002741217613220215,
+      "std": 0.0
+    },
+    {
+      "feature": "ITA-CJUS__P_SSR",
+      "importance": 0.0026750564575195312,
+      "std": 0.0
+    },
+    {
+      "feature": "dayofyear",
+      "importance": 0.0026376843452453613,
+      "std": 0.0
+    },
+    {
+      "feature": "doy_cos",
+      "importance": 0.0017847418785095215,
+      "std": 0.0
+    },
+    {
+      "feature": "ITA-CJUS__TAire10_SSR",
+      "importance": 0.0015535950660705566,
+      "std": 0.0
+    }
+  ]
+}
