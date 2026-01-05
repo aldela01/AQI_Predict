@@ -14,6 +14,7 @@ import mlflow
 
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
+from sklearn.inspection import permutation_importance
 from sklearn.metrics import root_mean_squared_error, r2_score
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder
@@ -36,6 +37,13 @@ class RFSelectConfig:
     target_h: int = 24  # use y_h24 for feature selection
 
     random_state: int = 42
+
+    # Permutation importance config
+    perm_set: str = "val"  # "val" o "test"
+    perm_n_repeats: int = 5
+    perm_sample_rows: int = 50000  # 0 = usar todo
+    perm_scoring: str = "neg_root_mean_squared_error"
+    perm_n_jobs: int = 1  # evita paralelismo anidado
 
     # RF hyperparams (baseline reasonable)
     n_estimators: int = 800
@@ -203,6 +211,84 @@ def main(cfg: RFSelectConfig) -> None:
         except Exception:
             pass
 
+        # Permutation Importance
+        # ----------------------------
+        perm_split = cfg.perm_set.lower()
+        if perm_split not in {"val", "test"}:
+            raise ValueError("perm_set debe ser 'val' o 'test'")
+
+        X_perm_raw = X_val_raw if perm_split == "val" else X_test_raw
+        y_perm = y_val if perm_split == "val" else y_test
+
+        # filtra NaNs en y por seguridad
+        mask = np.isfinite(y_perm)
+        X_perm_raw = X_perm_raw.loc[mask].copy()
+        y_perm = y_perm[mask]
+
+        # submuestreo para acelerar
+        if cfg.perm_sample_rows and len(X_perm_raw) > cfg.perm_sample_rows:
+            rng = np.random.default_rng(cfg.random_state)
+            idx = rng.choice(len(X_perm_raw), size=cfg.perm_sample_rows, replace=False)
+            X_perm_raw = X_perm_raw.iloc[idx]
+            y_perm = y_perm[idx]
+            mlflow.log_param("perm_subsample_rows", int(cfg.perm_sample_rows))
+        else:
+            mlflow.log_param("perm_subsample_rows", int(len(X_perm_raw)))
+
+        LOGGER.info(
+            "Computing permutation importance on %s (%d rows, repeats=%d)",
+            perm_split, len(X_perm_raw), cfg.perm_n_repeats
+        )
+
+        perm = permutation_importance(
+            estimator=model,                # pipeline completo
+            X=X_perm_raw,                   # columnas RAW
+            y=y_perm,
+            scoring=cfg.perm_scoring,
+            n_repeats=cfg.perm_n_repeats,
+            random_state=cfg.random_state,
+            n_jobs=cfg.perm_n_jobs,
+        )
+
+        perm_df = pd.DataFrame({
+            "feature": list(X_perm_raw.columns),
+            "importance_mean": perm.importances_mean,
+            "importance_std": perm.importances_std,
+        }).sort_values("importance_mean", ascending=False).reset_index(drop=True)
+
+        # Para umbral acumulado: usa solo contribución positiva (negativos -> 0)
+        perm_df["importance_pos"] = perm_df["importance_mean"].clip(lower=0.0)
+        tot = perm_df["importance_pos"].sum()
+        if tot > 0:
+            perm_df["importance_share"] = perm_df["importance_pos"] / tot
+        else:
+            perm_df["importance_share"] = 0.0
+        perm_df["importance_cum"] = perm_df["importance_share"].cumsum()
+
+        out_perm = cfg.reports_dir / f"rf_perm_importance_{y_col}.csv"
+        out_perm_top = cfg.reports_dir / f"rf_perm_importance_{y_col}_top50.csv"
+        perm_df.to_csv(out_perm, index=False)
+        perm_df.head(50).to_csv(out_perm_top, index=False)
+
+        mlflow.log_artifact(str(out_perm))
+        mlflow.log_artifact(str(out_perm_top))
+
+        # Selección por umbral (90/95/99) usando permutation importance
+        for thr in [0.90, 0.95, 0.99]:
+            # mínimo k tal que cum >= thr
+            k = int(np.argmax(perm_df["importance_cum"].to_numpy() >= thr) + 1) if tot > 0 else 0
+            mlflow.log_param(f"perm_n_features_cum_{int(thr*100)}", k)
+
+            # guarda lista de features seleccionadas como artifact (solo para 95%)
+            if abs(thr - 0.95) < 1e-9 and k > 0:
+                selected = perm_df.loc[:k-1, "feature"].tolist()
+                sel_path = cfg.reports_dir / f"rf_perm_selected_features_{y_col}_95.txt"
+                sel_path.write_text("\n".join(selected))
+                mlflow.log_artifact(str(sel_path))
+
+        LOGGER.info("Saved permutation importance: %s", out_perm)
+        
+        
         # Feature importances (post-preprocessing space)
         preproc_fitted = model.named_steps["preproc"]
         rf_fitted = model.named_steps["rf"]
@@ -227,7 +313,7 @@ def main(cfg: RFSelectConfig) -> None:
         mlflow.log_artifact(str(out_top))
 
         # Save model
-        joblib.dump(model, cfg.model_out)
+        joblib.dump(model, cfg.model_out, compress=3)
         mlflow.log_artifact(str(cfg.model_out))
 
         # Also log selected sets by cumulative threshold (e.g., 90%, 95%)
@@ -258,6 +344,10 @@ def parse_args() -> RFSelectConfig:
     p.add_argument("--min-samples-leaf", type=int, default=2)
     p.add_argument("--max-features", default="sqrt")
     p.add_argument("--oob-score", action="store_true")
+    p.add_argument("--perm-set", default="val", choices=["val", "test"])
+    p.add_argument("--perm-n-repeats", type=int, default=5)
+    p.add_argument("--perm-sample-rows", type=int, default=50000)
+    p.add_argument("--perm-n-jobs", type=int, default=1)
 
     args = p.parse_args()
 
@@ -281,6 +371,10 @@ def parse_args() -> RFSelectConfig:
         min_samples_leaf=args.min_samples_leaf,
         max_features=mf,
         oob_score=bool(args.oob_score),
+        perm_set=args.perm_set,
+        perm_n_repeats=args.perm_n_repeats,
+        perm_sample_rows=args.perm_sample_rows,
+        perm_n_jobs=args.perm_n_jobs,
     )
 
 

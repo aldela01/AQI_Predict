@@ -1,0 +1,13 @@
+pm25
+hour
+pm25_roll_mean168
+pm25_lag48
+pm25_lag1
+pm25_lag24
+dow
+pm25_lag72
+month
+pm25_lag168
+station_id
+pm25_roll_mean24
+is_weekend
